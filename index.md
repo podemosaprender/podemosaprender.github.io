@@ -15,7 +15,7 @@ Y puede ser
 Pero sólo PodemosAprender
 {/si-cada-dia/nuestras-acciones-nos-hacen-avanzar-y-no-retroceder}, {/si-logramos/ejecutar-proyectos-y-conseguir-resultados}, y conectamos {/con/un-equipo}, {/con/la-persona-justa} ...
 
-Por eso creamos esta comunidad y la forma de organizarla {/con/la-persona-que-queremos-ver-crecer} en mente.
+Por eso creamos esta comunidad y la forma de organizarla {/con/las-personas-que-queremos-ver-crecer} en mente.
 
 ¿Te contamos como hacer {/para/participar}?
 
