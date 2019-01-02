@@ -42,6 +42,10 @@ blockquote {
 blockquote p:first-child {
   margin-top: 0;
 }
+hr {
+	border-top: 1px solid #31708f;
+}
+
 hr.small {
   max-width: 100px;
   margin: 15px auto;
