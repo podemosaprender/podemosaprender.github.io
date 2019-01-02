@@ -30,9 +30,9 @@ description: Tutoriales y Planes para avanzar tu carrera
 
 # List of links in the navigation bar
 navbar-links:
-  A: "/a"
-  Para: "/para"
-  Usando: "/usando"
+  Para: "para"
+  A: "a"
+  Usando: "usando"
   Temas: "tags.html"
 
 # Image to show in the navigation bar - image must be a square (width = height)
