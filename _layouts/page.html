@@ -1,0 +1,64 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		{% assign kws = 'para a con pero porque si-logramos si-cada-dia usando' | split: ' ' %}
+
+		{% assign html = content %}
+		{% for p in site.pages %}
+			{% include rlinksauto.html html=html p=p %}
+		{% endfor %}
+		{% for p in site.contenidos %}
+			{% include rlinksauto.html html=html p=p %}
+		{% endfor %}
+		{% comment %}
+			A: reemplace links a contenido y paginas
+		{% endcomment %}
+
+		{% comment %}
+		{% assign kws = 'para a con pero porque si-logramos si-cada-dia usando' | split: ' ' %}
+		{% for kw in kws %}
+			{% assign mark= '/' | append: kw | append: '/' %}
+			{% assign val= '<span class="kw kw_' | append: kw | append: '">/' | append: kw | append: '/<span>'  %}
+			{% assign html= html | replace: mark, val %}
+		{% endfor %}
+		XXX: no funciona, reemplaza dentro de links, ojo
+		{% endcomment %}
+		
+		{{ html }}
+
+      {% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          Etiquetas:
+          {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{- tag | slugify -}}">{{- tag -}}</a>
+          {% endfor %}
+          {% else %}
+            {{ page.tags | join: ", " }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if page.social-share %}
+        {% include social-share.html %}
+      {% endif %}
+
+	    {% if page.comments %}
+        <div class="disqus-comments">
+	        {% include disqus.html %}
+        </div>
+	        {% include fb-comment.html %}
+        <div class="staticman-comments">
+          {% include staticman-comments.html %}
+        </div>
+	    {% endif %}
+    </div>
+  </div>
+</div>

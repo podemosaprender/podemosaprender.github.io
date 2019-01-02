@@ -1,0 +1,48 @@
+---
+layout: base
+---
+
+{% include header.html type="page" %}
+
+<div class="container" role="main">
+  <div class="row">
+   <div class="col-sm-2">
+		<img 
+			src="{{ site.baseurl }}/personas_img{{ page.url | remove_first: "/con"}}.jpg"
+			class="image-responsive center-block"
+		>
+	</div>
+   <div class="col-sm-10">
+			Links:
+			<ul>
+				<li>blog: <a href="{{page.blog}}">{{page.blog}}</a></li>
+				<li>github: <a href="https://gitgub.com/{{page.github}}">{{page.github}}</a></li>
+				<li>facebook: <a href="https://www.facebook.com/{{page.facebook}}">{{page.facebook}}</a></li>
+				<li>trello: <a href="https://www.trello.com/{{page.trello}}">{{page.trello}}</a></li>
+			</ul>
+      {{ content }}
+		</div>
+	</div>
+
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 clearfix">
+
+      {% if page.tags.size > 0 %}
+        <div class="blog-tags">
+          Etiquetas:
+          {% if site.link-tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags#{{- tag | slugify -}}">{{- tag -}}</a>
+          {% endfor %}
+          {% else %}
+            {{ page.tags | join: ", " }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+      {% if page.social-share %}
+        {% include social-share.html %}
+      {% endif %}
+    </div>
+  </div>
+</div>
