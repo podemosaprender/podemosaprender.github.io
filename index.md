@@ -3,7 +3,7 @@ permalink: /
 title: Podemos Aprender
 ---
 
-PodemosAprender es una comunidad donde nos reunimos {/para/practicar} en persona o através de internet.
+PodemosAprender es una comunidad donde nos reunimos {/para/practicar} en persona o a través de internet.
 
 PodemosAprender {/para/conseguir-un-trabajo-mejor}, {/para/conseguir-clientes} y {/para/crecer-como-personas} 
 
