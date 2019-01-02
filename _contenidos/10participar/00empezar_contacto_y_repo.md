@@ -12,6 +12,8 @@ Para eso te vamos a ayudar a
 3. Copiar un perfil para usar de [modelo](https://raw.githubusercontent.com/podemosaprender/podemosaprender.github.io/master/_personas/mauriciocap.md)
 4. Crear un archivo nuevo con tu nombre de usuario (minúsculas y sin espacios) en la carpeta ```_personas``` de _tu copia_, pegar lo que copiaste 
 5. Adaptarlo así sabemos mejor que te gustaría aprender, para qué, y qué ya sabés hacer.
+6. También podes subir una foto más o menos de 300x300 a `personas_img` con el mismo nombre de archivo que usaste para tu perfil _pero_ extensión .jpg
+   ej. mi perfil es `_personas/mauriciocap.md` y puse mi foto en `personas_img/mauriciocap.jpg`
 
 XXX:acá deberíamos poner un video como 
 
