@@ -1,7 +1,7 @@
 ---
-title: **Mariano Puchetta**
-github:[GitHub](https://github.com/marianopuchetta/)
-linkedin:[Linkedin](Https://github.com/marianopuchetta/)
+title: Mariano Puchetta
+github: marianopuchetta
+linkedin: marianopuchetta
 ---
 
 **Programador.** 
