@@ -30,10 +30,10 @@ Dejo [aquí](https://www.gatsbyjs.org/tutorial/) el enlace que utilice para arma
 
 ### Enlaces que te pueden servir
 
-https://www.gatsbyjs.org/
-https://reactjs.org/
-https://graphql.org/
-https://webpack.js.org/
+ - https://www.gatsbyjs.org/
+ - https://reactjs.org/
+ - https://graphql.org/
+ - https://webpack.js.org/
 
 
 
