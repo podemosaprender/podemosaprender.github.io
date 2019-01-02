@@ -4,7 +4,7 @@ title: 'Etiquetas'
 ---
 
 {% assign rawtags = "" %}
-{% for post in site.pages %}
+{% for post in site.contenidos %}
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
 	{% assign rawtags = rawtags | append:ttags %}
 {% endfor %}
@@ -34,13 +34,13 @@ A: tags es un array con tags UNICOS
 {% for i in (0..tagslastidx) %}
 	{% assign cnt = 0 %}
 	{% assign idx = "" %}
-	{% assign plast = site.pages.size | minus: 1 %}
+	{% assign plast = site.contenidos.size | minus: 1 %}
 	{% for j in (0..plast) %}
-		{% assign ptags = site.pages[j].tags | join: "|" %}
+		{% assign ptags = site.contenidos[j].tags | join: "|" %}
 		{% comment %}
-		<br>Tag {{ tags[i] }} Page {{ i }} {{ site.pages[j].title }} tags {{ ptags }}
+		<br>Tag {{ tags[i] }} Page {{ i }} {{ site.contenidos[j].title }} tags {{ ptags }}
 		{% endcomment %}
-		{% if site.pages[j].tags contains tags[i] %}
+		{% if site.contenidos[j].tags contains tags[i] %}
 			{% assign cnt = cnt | plus: 1  %}
 			{% assign idx = idx | append: j | append: "," %}
 		{% endif %}
@@ -80,7 +80,7 @@ A: emiti el encabezado con los tags y la cantidad de articulos
 			{% assign idxs = tags_idx[i] | split: "," %}
 			{% for idx in idxs %}
 				{% assign idxn = idx | minus: 0 %}
-				{% assign post = site.pages[idxn] %}
+				{% assign post = site.contenidos[idxn] %}
 				{% if post %}
             <div class="tag-entry">
                 <a href="{{ post.url }}">{{ post.title }}</a>
