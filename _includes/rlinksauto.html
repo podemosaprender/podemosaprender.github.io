@@ -9,7 +9,7 @@
 					{% assign mark_kw= '/' | append: kw | append: '/' %}
 					{% if p.url contains mark_kw %}
 						{% assign txt_kw= kw | replace: '-',' ' %}
-						{% assign val_kw= '<a href="' | append: mark_kw | append: '" class="kw kw_' | append: kw | append: '">' | append: txt_kw | append: '</a> ' %}
+						{% assign val_kw= '<a href="/' | append: kw | append: '" class="kw kw_' | append: kw | append: '">' | append: txt_kw | append: '</a> ' %}
 						{% assign val= val | replace: mark_kw, val_kw %}
 						{% assign txt= txt | replace: mark_kw, '' %}
 						{% assign kw= kw %}
