@@ -1,7 +1,7 @@
 ---
 permalink: /a/vender
 img: /img/vender.jpg
-tags: [marketing,transformacion_digital,negocios]
+tags: [practica,marketing,transformacion_digital,negocios]
 ---
 
 Punteo de avances que se podrían hacer para la practica de marketing que habíamos propuesto. 
