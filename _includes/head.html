@@ -86,7 +86,11 @@
   {% endif %}
 
   {% if page.img %}
+	{% if page.img contains "http" %}
   <meta property="og:image" content="{{ page.img }}" />
+	{% else %}
+  <meta property="og:image" content="{{ site.url }}{{ page.img }}" />
+	{% endif %}
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
@@ -114,7 +118,11 @@
   {% endif %}
 
   {% if page.img %}
+	{% if page.img contains "http" %}
   <meta name="twitter:image" content="{{ page.img }}" />
+	{% else %}
+  <meta name="twitter:image" content="{{ site.url }}{{ page.img }}" />
+	{% endif %}
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
