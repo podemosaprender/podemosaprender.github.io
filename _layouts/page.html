@@ -8,6 +8,10 @@ layout: base
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		{% if page.img %}
+			<img src="{{page.img}}" alt="ilustracion" class="ilustracion_impar">
+		{% endif %}
+
 		{% assign kws = 'para a con pero porque si-logramos si-cada-dia usando' | split: ' ' %}
 
 		{% assign html = content %}
@@ -22,7 +26,6 @@ layout: base
 		{% endcomment %}
 
 		{% comment %}
-		{% assign kws = 'para a con pero porque si-logramos si-cada-dia usando' | split: ' ' %}
 		{% for kw in kws %}
 			{% assign mark= '/' | append: kw | append: '/' %}
 			{% assign val= '<span class="kw kw_' | append: kw | append: '">/' | append: kw | append: '/<span>'  %}

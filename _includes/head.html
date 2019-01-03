@@ -85,8 +85,8 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
   {% endif %}
 
-  {% if page.share-img %}
-  <meta property="og:image" content="{{ page.share-img }}" />
+  {% if page.img %}
+  <meta property="og:image" content="{{ page.img }}" />
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
@@ -113,8 +113,8 @@
   <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
   {% endif %}
 
-  {% if page.share-img %}
-  <meta name="twitter:image" content="{{ page.share-img }}" />
+  {% if page.img %}
+  <meta name="twitter:image" content="{{ page.img }}" />
   {% elsif site.avatar %}
   <meta name="twitter:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}

@@ -805,3 +805,8 @@ td.gutter {
   border-radius: 3px ;
   padding: 0 3px 0 3px;
 }
+
+.ilustracion_impar {
+	float: right;
+  width: 40%;
+}
