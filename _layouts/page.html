@@ -21,6 +21,9 @@ layout: base
 		{% for p in site.contenidos %}
 			{% include rlinksauto.html html=html p=p %}
 		{% endfor %}
+		{% for p in site.personas %}
+			{% include rlinksauto.html html=html p=p %}
+		{% endfor %}
 		{% comment %}
 			A: reemplace links a contenido y paginas
 		{% endcomment %}
