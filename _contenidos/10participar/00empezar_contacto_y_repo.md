@@ -14,7 +14,10 @@ Para eso te vamos a ayudar a
 5. Adaptarlo así sabemos mejor que te gustaría aprender, para qué, y qué ya sabés hacer.
 6. También podes subir una foto más o menos de 300x300 a `personas_img` con el mismo nombre de archivo que usaste para tu perfil _pero_ extensión .jpg
    ej. mi perfil es `_personas/mauriciocap.md` y puse mi foto en `personas_img/mauriciocap.jpg`
+7. Apretá el botón para generar un **pull request** y que lo agreguemos al sitio nuevo
 
-XXX:acá deberíamos poner un video como 
+OjO! Parece fácil, ES fácil y con una herramienta sola, sin instalar nada y en media hora ... __te da superpoderes__ porque vas a aprender {/a/editar-archivos-en-equipo-sin-romper-nada}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hgp2NEwusUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Acá te explico eso y más **en un video.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8VM303TGvyI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
