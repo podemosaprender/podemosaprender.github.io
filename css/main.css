@@ -134,6 +134,7 @@ img {
 .navbar-custom .nav li a {
   font-weight: 800;
   color: {{ site.navbar-text-col }};
+  border: none;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -292,6 +293,7 @@ footer p.text-muted {
 
 footer a {
   color: {{site.footer-link-col}};
+  border: none;
 }
 
 footer .list-inline {
