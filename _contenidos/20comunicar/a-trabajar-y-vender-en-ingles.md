@@ -16,4 +16,6 @@ Deberías ir mejorando tu nivel de
 9. Podés encarar y convencer gente.
 10. Podés concretar exitosamente una negociación difícil.
 
+Suscribite al canal en youtube que compartimos videos para que llegues de nada a mucho ...
 
+<https://www.youtube.com/playlist?list=PLuw2k9vttfEzrjz8-iWGCfuhphkEMERcn>
