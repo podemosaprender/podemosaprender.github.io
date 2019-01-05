@@ -52,3 +52,16 @@ Lo que aprendés, hacés y tus contactos son tu capital. Lo podés hacer crecer 
 
 En la foto esta el carrito de [la abuela Lidia](https://www.clarin.com/ciudades/rio-abuela-lidia-estreno-carrito_0_rJdY6VjDXg.html) que es una máquina de hacer dinero, sale en la tele, el diario, los políticos se quieren sacar fotos con ella...
 
+
+## Video y links
+
+* {/si-cada-dia/contas-que-vas-a-hacer-y-pedis-ayuda}
+* Aprendé {/a/trabajar-y-vender-en-ingles}
+* Memorizate el libro de [Scrum y XP desde las trincheras](http://www.proyectalis.com/wp-content/uploads/2008/02/scrum-y-xp-desde-las-trincheras.pdf)
+* Revisá que trabajos se venden ej. <https://www.globant.com/clients/case-studies>
+* Revisá que habilidades piden ej. <https://www.globant.com/jobs/software-development/argentina>
+* Revisá cuanto se paga y como ej. <https://www.freelancer.es/jobs/javascript/?hourly=true>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ufkn0-3v_HA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
