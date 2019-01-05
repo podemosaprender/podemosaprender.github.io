@@ -2,6 +2,7 @@
 permalink: /para/conseguir-un-trabajo-mejor
 img: /img/abuela-lidia.jpg
 ---
+La clave es "¿qué me dás y qué me cuesta?". No es sólo comercial, si te explico como conseguir un paraguas pero te cuesta estar 3hs bajo la lluvia no sirve, ¿no?
 
 Qué podés mejorar para avanzar tu carrera, más importante primero
 
