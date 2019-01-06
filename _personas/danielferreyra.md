@@ -1,9 +1,9 @@
 ---
 title: Daniel Ferreyra
-blog: 
+blog:
 github: Ferrador
 facebook: ferreyra
-trello: @ferrador77
+trello: ferrador77
 soy-de: Córdoba (AR)
 ---
 
