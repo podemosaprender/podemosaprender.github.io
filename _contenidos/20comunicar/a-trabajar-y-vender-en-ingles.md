@@ -18,4 +18,6 @@ Deberías ir mejorando tu nivel de
 
 Suscribite al canal en youtube que compartimos videos para que llegues de nada a mucho ...
 
+Podés empezar {/usando/frases-en-ingles} y memorizando este video (tiene subtítulos en Inglés que NO SON los autogenerados)
+
 <https://www.youtube.com/playlist?list=PLuw2k9vttfEzrjz8-iWGCfuhphkEMERcn>
