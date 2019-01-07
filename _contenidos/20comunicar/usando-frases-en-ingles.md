@@ -1,5 +1,5 @@
 ---
-permalink: /usando/frases-en-ingles.mf
+permalink: /usando/frases-en-ingles
 img: /img/lang-eng.png
 ---
 
