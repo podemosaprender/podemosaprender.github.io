@@ -1,6 +1,6 @@
 ---
 permalink: /a/pedir-ayuda
-img: ayuda-pedir.png
+img: /img/ayuda-pedir.png
 tags: [seProfesional,meAyudas]
 ---
 
@@ -13,6 +13,9 @@ Pedí ayuda! #seProfesional y contá bien claro en UN post
 3. Contá lo que estabas haciendo bien claro  
    (entre a https://...., hice click en ..., me aparecio ...)
 
+Si además es ayuda sobre un texto o código, usa git como cuando aprendiste {/a/participar}
+
 Así te das el gusto {/con/la-persona-que-te-quiere-ayudar} de resolverlo, que es de las cosas más lindas de la vida para todas las personas involucradas.
 
 Podés estar ayudando a mucha gente, porque avisás que hay una dificultad que puede afectar a otras personas.
+
