@@ -1,6 +1,6 @@
 ---
 permalink: /a/pedir-ayuda
-img: ayuda-pedir
+img: ayuda-pedir.png
 tags: [seProfesional,meAyudas]
 ---
 
