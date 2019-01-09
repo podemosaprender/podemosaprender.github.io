@@ -1,9 +1,9 @@
 ---
 title: Gonzalo Varisco
 blog:
-github:https://github.com/gonzalojvarisco
+github: gonzalojvarisco
 facebook: Gonzalo Varisco
-trello: 
+trello:
 soy-de: CABA
 ---
 
