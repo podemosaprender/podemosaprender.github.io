@@ -1,7 +1,7 @@
 ---
 title: GuilleDeLaQuema
 blog:
-github: podemosaprender
+github: GuilleQuemero
 facebook: Guille De La Quema
 trello:
 soy-de: CABA
