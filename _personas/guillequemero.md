@@ -1,10 +1,9 @@
-
 ---
 title: GuilleDeLaQuema
-blog: 
+blog:
 github: podemosaprender
 facebook: Guille De La Quema
-trello: 
+trello:
 soy-de: CABA
 ---
 
