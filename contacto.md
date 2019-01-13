@@ -2,7 +2,7 @@
 layout: page
 title: "Contacto"
 tags: [Contacto]
-redirect_from: "https://pizarra.podemosaprender.org/2018/04/contacto.html"
+redirect_from: /2018/04/contacto.html
 ---
 
 Para incluir a todos los que podamos estamos en varias redes y este sitio para los que no están en ninguna. Buscanos en  
