@@ -1,8 +1,8 @@
 ---
 title: Ezequiel_Cab
 blog:
-github: Ezequiel_Cab
-facebook: EzequielCab
+github: Skareze
+facebook: ezequiel.cabrera.716
 trello: 
 soy-de: Buenos Aires
 ---
