@@ -1,7 +1,7 @@
 ---
 title: Monica Bocchio
 blog:
-github: podemosaprender
+github: 
 facebook: MonicaBo
 trello: 
 soy-de: CABA
