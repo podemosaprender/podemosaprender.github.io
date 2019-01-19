@@ -1,6 +1,7 @@
 ---
 permalink: /con
 title: Con
+img: /img/castellers.jpg
 ---
 PodemosAprender /con/ otras personas, equipos, organizaciones ... Por ejemplo:
 

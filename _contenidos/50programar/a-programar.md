@@ -1,5 +1,7 @@
 ---
 permalink: /a/programar
+img: /img/programar.png
+tags: [practica]
 ---
 
 PodemosAprender a programar en general y nos conviene más que encasillarnos en hacerlo {/usando/java}, {/usando/javascript}, o {/usando/python}.

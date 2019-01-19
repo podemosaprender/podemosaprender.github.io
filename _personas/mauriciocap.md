@@ -4,6 +4,7 @@ blog: https://pizarra.podemosaprender.org
 github: podemosaprender
 facebook: mauriciocap
 trello: 
+soy-de: CABA
 ---
 
 Conecto personas y tecnología para que aprovechen más oportunidades. 

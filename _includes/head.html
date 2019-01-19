@@ -85,12 +85,15 @@
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove: '/index.html' | remove: '.html' }}" />
   {% endif %}
 
+	<!-- {{ page.collection }} -->
   {% if page.img %}
 	{% if page.img contains "http" %}
   <meta property="og:image" content="{{ page.img }}" />
 	{% else %}
   <meta property="og:image" content="{{ site.url }}{{ page.img }}" />
 	{% endif %}
+	{% elsif page.collection == "personas" %}
+  <meta property="og:image" content="{{ site.baseurl }}/personas_img{{ page.url | remove_first: "/con"}}.jpg">
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
