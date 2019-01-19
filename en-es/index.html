@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+     
+</head>
+
+<body>
+    <form name="action" class="form-group">
+			<div id="textAreas"class ="form-group">
+				<textarea name="fromLang" id="fromLang" placeholder="Write your English text here" class="form-control"></textarea>
+				<textarea name="toLang" id="toLang"  class="form-control"></textarea>
+			</div>
+   	</form>
+		<div class="text-center">
+			<p>Thanks <a href="http://www.podemosaprender.org/con/marianopuchetta">Mariano Puchetta</a> - <a href="http://www.podemosaprender.org/en-es">http://www.podemosaprender.org/en-es</a></p>
+		</div>
+
+    <script> 
+
+		var CfgCheckIntervalMs= 2000; //U: cada cuanto revisamos si hay que traducir, en milisegundos
+
+		function getFromTxt() { //U: devuelve el texto que hay que traducir
+			return document.action.fromLang.value;
+		}
+
+    function transla(fromTxt){  
+      var url = "https://translate.yandex.net/api/v1.5/tr.json/translate",
+          keyAPI = "trnsl.1.1.20190118T151014Z.0954833f0a34d74b.01a444b7d5114f75bda8289bc0eb1938f592e600";
+      var xhr = new XMLHttpRequest(),
+          toLang = "es",
+          data = "key="+keyAPI+"&text="+fromTxt+"&lang="+toLang;
+
+      xhr.open("POST",url,true);
+      xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+      xhr.send(data);
+      xhr.onreadystatechange = function() {
+        if (this.readyState==4 && this.status==200) {
+          var res = this.responseText;
+
+          var json = JSON.parse(res);
+          if(json.code == 200) {
+            document.action.toLang.value = json.text[0];
+          }
+          else {
+            document.action.toLang.value = "Error Code: " + json.code;
+          }
+        }
+      }
+    } 
+
+		var FromTxtLast_; //U: para checkear si cambio y no estar llamando a la api demasiadas veces
+		function translateIfChanged() { //U: si el texto cambio, lo guarda y llama a transla
+			var txt= getFromTxt();
+			if (txt != FromTxtLast_) { FromTxtLast_= txt; //A: cambio, lo recuerdo para no llamar con el mismo
+				transla(txt);
+			}
+		}
+
+		var procCheckAndTranslate= setInterval(translateIfChanged, CfgCheckIntervalMs);
+
+</script>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
