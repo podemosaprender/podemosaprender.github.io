@@ -21,20 +21,25 @@
 <body>
     <form name="action" class="form-group">
 			<div id="textAreas"class ="form-group">
-				<textarea name="fromLang" id="fromLang" placeholder="Write your English text here" class="form-control"></textarea>
-				<textarea name="toLang" id="toLang"  class="form-control"></textarea>
+				<textarea name="s" id="fromLang" placeholder="Write your English text here" class="form-control"></textarea>
+				<textarea id="toLang"  class="form-control"></textarea>
 			</div>
-   	</form>
-		<div class="text-center">
-			<p>Thanks <a href="http://www.podemosaprender.org/con/marianopuchetta">Mariano Puchetta</a> - <a href="http://www.podemosaprender.org/en-es/?">http://www.podemosaprender.org/en-es/?</a></p>
-		</div>
 
+			<div class="text-center">
+				<p><button>Prepare url for shaing</button> - Thanks <a href="http://www.podemosaprender.org/con/marianopuchetta">Mariano Puchetta</a> - <a href="http://www.podemosaprender.org/en-es/?">http://www.podemosaprender.org/en-es/?</a></p>
+			</div>
+
+   	</form>
     <script> 
 
 		var CfgCheckIntervalMs= 2000; //U: cada cuanto revisamos si hay que traducir, en milisegundos
 
 		function getFromTxt() { //U: devuelve el texto que hay que traducir
 			return document.action.fromLang.value;
+		}
+
+		function setFromTxt(s) { //U: pone el texto que hay que traducir
+			document.action.fromLang.value= s;
 		}
 
     function transla(fromTxt){  
@@ -71,6 +76,21 @@
 		}
 
 		var procCheckAndTranslate= setInterval(translateIfChanged, CfgCheckIntervalMs);
+
+	//S: lo conectamos al DOM
+	function getParametro_url(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+	}
+	
+	var src= (getParametro_url("s")||"").replace(/\r+/g,''); //A: si nos pasaron un texto lo usamos
+	setFromTxt(src); //A: lo cargo en el text area	
+	transla(src); //A: genero la traduccion 
 
 </script>
 <!-- jQuery -->
