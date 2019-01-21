@@ -17,7 +17,7 @@ Pero sólo PodemosAprender
 
 Por eso creamos esta comunidad y la forma de organizarla {/con/las-personas-que-queremos-ver-crecer} en mente.
 
-¿Te contamos como hacer {/para/participar}?
+¿Te contamos cómo hacer {/para/participar}?
 
 ---
 
