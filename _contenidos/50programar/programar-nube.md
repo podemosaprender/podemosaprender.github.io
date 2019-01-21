@@ -9,6 +9,12 @@ Para mostrar tu proyecto en la red, muchas personas no tienen un gran Hardware, 
 
 Esta es una lista de algunas herramientas:
 
+[Gitpages](https://github.com)
+
+* Gratis
+* Sólo archivos estáticos o jekyll pero hay trucos usando git (así editamos este sitio)
+* También podes usar la api para guardar datos desde html/js como <https://github.com/prose/prose>
+
 [Glitch](https://glitch.com/) 
 
 * Gratis
@@ -20,6 +26,7 @@ Esta es una lista de algunas herramientas:
 
 * Freemium
 * Node / Ruby / Python / Java / Php / Go / Scala / Clojure
+* Hicimos un tutorial {/usando/java-en-la-nube-con-heroku} {/con/marianopuchettta}
 
 [Code Anywhere](https://codeanywhere.com)
 
