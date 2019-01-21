@@ -1,70 +1,68 @@
 ---
-permalink: /a/programar-en-la-nube
+permalink: /usando/servidores-gratis-en-la-nube
 img: /img/programar.png
 tags: [practica, nube, programar]
 ---
 
-Muchas personas no tienen un gran Hardware, pero eso no es necesario, es posible programar en la nube, equipo minimo y muchas ganas.
+Para mostrar tu proyecto en la red, muchas personas no tienen un gran Hardware, pero eso no es necesario, es posible programar en la nube, equipo minimo y muchas ganas.
+
+
 Esta es una lista de algunas herramientas:
 
-<ul>
-<li>
-<a href="https://glitch.com/">Glitch</a>
-* Gratis
-- Node.js / Front y Back / Git / Hosting automatico / Consola / Log / Debbuger
-- Se pueden crear Equipos y trabajar en tiempo real
-- Necesitas una Guia <a href="https://github.com/gastonpereyra/Apuntes_Glitch">Aca</a>
-</li>
+[Glitch](https://glitch.com/) 
 
-<li>
-<a href="https://www.heroku.com">Heroku/</a>
+* Gratis
+* Node.js / Front y Back / Git / Hosting automatico / Consola / Log / Debbuger
+* Se pueden crear Equipos y trabajar en tiempo real
+* Necesitas una Guia <a href="https://github.com/gastonpereyra/Apuntes_Glitch">Aca</a>
+
+[Heroku](https://www.heroku.com)
+
 * Freemium
-- Node / Ruby / Python / Java / Php / Go / Scala / Clojure
-</li>
+* Node / Ruby / Python / Java / Php / Go / Scala / Clojure
 
-<li>
-<a href="https://codeanywhere.com">Code Anywhere/</a>
+[Code Anywhere](https://codeanywhere.com)
+
 * Freemium
-- Html/CSS/Javascript/Python/Ruby/C++/Java
-</li>
+* Html/CSS/Javascript/Python/Ruby/C++/Java
 
-<li>
-<a href="https://codepen.io/">CodePen</a>
+[CodePen](https://codepen.io/)
+
 * Gratis / Pago
-- Html/Css/Javascript-> preprocesadores de CSS y JS
-</li>
+* Html/Css/Javascript-> preprocesadores de CSS y JS
 
-<li>
-<a href="https://codesandbox.io/">Code Sandbox</a>
+[Code Sandbox](https://codesandbox.io/)
+
 * Gratis
-Sandbox (front y back) / Html/css/Javascript -> muchos Frameworks
-</li>
+* Sandbox (front y back) / Html/css/Javascript -> muchos Frameworks
 
-<li>
-<a href="https://jsfiddle.net/">JS Fiddle</a>
+[JsFiddle](https://jsfiddle.net/)
+
 * Gratis
-Sandbox / Html/css/Javascript
-</li>
+* Sandbox / Html/css/Javascript
 
-<li>
-<a href="https://repl.it">Repl</a>
+[Repl](https://repl.it)
+
 * Gratis / Pago
-IDE / Muchos lenguajes
-</li>
+* IDE / Muchos lenguajes
 
-<li>
-<a href="https://stackblitz.com/">StacBlitz</a>
+[StackBlitz](https://stackblitz.com/)
+
 * Gratis
-VS Code en la nube con Github.
-</li>
-<li>
-<a href="https://scrimba.com</a>
+* VS Code en la nube con Github.
+
+
+[Scrimba](https://scrimba.com)
 * Gratis (hasta donde sé)
-- Playground con Templates para practicar
-- Videos para aprender, parar, practicar, y seguir viendo
-</li>
-<ul>
+* Playground con Templates para practicar
+* Videos para aprender, parar, practicar, y seguir viendo
+
+[Kaggle](https://kaggle.com)
+* Gratis
+* Cuadernos interactivos con Python y R para Ciencia de Datos
+* Datasets y tutoriales
+* Hicimos unos [videos](https://www.youtube.com/playlist?list=PLuw2k9vttfEzIX9zAstHHKa-RHbr0UkJR) para que puedas empezar fácil
 
 Ayudanos a ampliar la lista, para que todos podamos programar.
 
-Autor: {/con/gastonpereyra}
+Autor {/con/gastonpereyra} Mil gracias por todo lo que compartís!
