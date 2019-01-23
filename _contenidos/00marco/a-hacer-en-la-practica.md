@@ -1,6 +1,6 @@
 ---
 permalink: /a/hacer-en-la-practica
-tags: [reglas,seProfesional]
+tags: [reglas,seProfesional,conducta]
 img: /img/practica.jpg
 title: Hacer en la práctica
 ---
