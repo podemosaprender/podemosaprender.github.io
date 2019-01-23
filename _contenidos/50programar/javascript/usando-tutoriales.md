@@ -1,7 +1,9 @@
 ---
-permalink: /usando/tutoriales
+permalink: /usando/tutoriales-javascript
 img: /img/usando-youtube.jpg
 ---
+
+{/con/leandrobarone} Gracias!
 
 Durante los últimos años YouTube se convirtió en una herramienta invaluable para desarrolladores novatos y expertos por igual. Participar de esta red social como productor de contenidos permite darse a conocer en el ambiente, ganar prestigio y conseguir más y mejores clientes. Esto llevó a grandes profesionales con décadas de experiencia a compartir sus conocimientos en forma de cursos, vlogs, entrevistas, sesiones de live coding y otros formatos audiovisuales.
 
