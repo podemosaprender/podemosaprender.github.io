@@ -1,6 +1,7 @@
 ---
 title: Empezar en PodemosAprender
 permalink: /para/participar
+tags: [reglas]
 ---
 
 Lo primero es que estés en contacto con el grupo.

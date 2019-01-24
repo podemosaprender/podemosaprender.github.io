@@ -1,6 +1,7 @@
 ---
 permalink: /usando/el-banco-de-tiempo
 img: /img/endogenous-money.jpg
+tags: [organizar, reglas]
 ---
 
 ¿Para conseguir o cobrar tu ayuda, te sumás al Banco de Tiempo?  
