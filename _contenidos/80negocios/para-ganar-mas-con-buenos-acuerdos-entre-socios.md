@@ -8,9 +8,11 @@ Saber hacer acuerdos que generen confianza en todas las partes es el paso más i
 
 ¿Qué necesitás además de venir mostrando una __conducta impecable__ en fidelidad, orden, transparencia y saber prometer y cumplir, que es __imprescindible__?
 
-Un acuerdo muy concreto sobre _¿Qué me dás? ¿Qué me cuesta? ¿Cuándo?_ Te ofrezco un modelo y abajo explico por qué.
+Un acuerdo muy concreto sobre _¿Qué me dás? ¿Qué me cuesta? ¿Cuándo?_ Te ofrezco un modelo informal y abajo explico por qué.
 
-## Acuerdo modelo
+## Acuerdo modelo (informal)
+
+__¡OjO!__ Este es un modelo __informal__ para que te ordenes y llegues a uno __formal__ que la ley establece que sólo te pueden asesorar __profesionales habilitados__ que deberás contratar __a tu criterio__
 
 ### Ventas
 
@@ -85,4 +87,35 @@ __I4:__ La persona que adquirió derechos por (i1) o (i2) puede transferirle un 
   _Ej. Rosa que tenía derecho al 30% de las ganancias le vende a Juan el derecho a un 20% y se queda ella con el derecho a un 10% a un precio que acuerdan sólo entre ellos dos, Juan no necesita hacer nada más que pagarle como acordaron y con eso adquiere el derecho a un 20% de las ganancias que antes le correspondía a Rosa_
 
 
+## ¿Por qué ese modelo?
 
+Como contaba arriba, para hacer un negocio hace falta __colaboración__, una red de personas, y más todavía si es una empresa que espera repetir muchos negocios parecidos porque eso da __más ganancia__.
+
+### Para que __veas como armar puentes__ 
+
+Fijate que el modelo es como un _plano_ de todas las partes que te van a hacer falta y como conectarlas, desde las ventas hasta los costos operativos. Fijate también que te permite calcular rápido que negocio es viable:
+
+1. Buscás un precio _suficientemente grande_ __por venta__  (a la derecha en la ilustración)
+2. Calculás cuantos U$S podrías dedicar a cada venta (comisiones, adaptaciones, etc.) y revisás si alguien podría querer hacerlo por ese monto. Si no lo ves convincente, a revisar mejor la oferta en 1.
+3. En base a esa _exploración_ vas tanteando con quienes lo harías para saber mejor __costos de Operación__ y __costos de Oportunidad__ de las personas que invertirían, y como reducirlos. (a la izquierda en la ilustración)
+
+Es el ciclo que se repite en el medio de la ilustración que acompaña este artículo.
+
+### Para que __no te trabes__
+
+Si te fijás el acuerdo deja definido casi todo desde el momento que acordás, de modo que puedan enfocarse todas las personas con confianza en __ir a buscar juntas la ganancia__ y sin tener que debatir a cada paso.
+
+Además, aunque por brevedad no lo puse, cada ítem corresponde a las relaciones societarias, laborales y comerciales usuales y que define la ley:
+
+* Comisiones, cargos por uso, y acuerdos de provisión de servicios o cosas específicas.
+* Honorarios y salarios.
+* Préstamos.
+* Sociedades por acciones.
+
+De modo que aunque empieces con un acuerdo informal para no perder tiempo y dinero en algo que no sabés si te los va a devolver, no tengas dificultades para formalizarlo cuando las cosas anden bien y te parezca conveniente. Recomiendo incluir cuando sería ese momento y el compromiso de hacerlo también en el acuerdo.
+
+### Para que __no corras riesgos__
+
+__¡OjO!__ En muchos países, incluida Argentina, __te pueden reclamar que pagues__ en compensación por cosas o servicios que pedís por escrito, ante testigos, o se puede demostrar recibiste y te dieron ganancia. Puede alcanzar un mail, o en algunos casos que la persona se presente en el Ministerio de Trabajo con testigos o un mínimo de pruebas.
+
+Aunque este modelo que vamos elaborando __es sólo un boceto, informal, sin valor legal__ hacemos lo que podemos para que respete esas relaciones, le de previsibilidad a todas las partes, y puedas pasar a uno legal __según te indique tu criterio__ con una charla más ordenada e ideas más claras que si descubrieras cada cosa recién cuando te sentás con cada profesional involucrado a averiguar como formalizarlo.
