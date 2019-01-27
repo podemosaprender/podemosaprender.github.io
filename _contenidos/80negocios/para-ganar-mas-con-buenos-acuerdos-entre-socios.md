@@ -119,3 +119,7 @@ De modo que aunque empieces con un acuerdo informal para no perder tiempo y dine
 __¡OjO!__ En muchos países, incluida Argentina, __te pueden reclamar que pagues__ en compensación por cosas o servicios que pedís por escrito, ante testigos, o se puede demostrar recibiste y te dieron ganancia. Puede alcanzar un mail, o en algunos casos que la persona se presente en el Ministerio de Trabajo con testigos o un mínimo de pruebas.
 
 Aunque este modelo que vamos elaborando __es sólo un boceto, informal, sin valor legal__ hacemos lo que podemos para que respete esas relaciones, le de previsibilidad a todas las partes, y puedas pasar a uno legal __según te indique tu criterio__ con una charla más ordenada e ideas más claras que si descubrieras cada cosa recién cuando te sentás con cada profesional involucrado a averiguar como formalizarlo.
+
+### Para que __crezcas profesionalmente y como persona__
+
+¡Espero que te ayude a encontrar otras personas e imaginar más oportunidades! También a entender que buscan y como se organizan las personas que te contratan y que eso te sirva para aprender más y avanzar tu carrera.
