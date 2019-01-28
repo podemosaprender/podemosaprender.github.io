@@ -1,5 +1,6 @@
 ---
 permalink: /usando/gnu-linux
+img: /img/linux.jpg
 ---
 
 {/con/SantiagoAgustin}
