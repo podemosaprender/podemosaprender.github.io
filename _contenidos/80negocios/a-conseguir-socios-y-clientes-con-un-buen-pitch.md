@@ -9,7 +9,7 @@ img: /img/barco-subi.jpg
 
 Creo que nos conviene trabajar juntos porque *para vos* ... 
 
-Además de mis ... años de experiencia vendiendo ... en empresas como ... , tengo preparados bocetos de pantallas y las User Stories más importantes, y recibí feedback positivo de ... que mostraron interés en comprarlo. 
+Por mi parte, además de mis ... años de experiencia vendiendo ... en empresas como ... , tengo preparados bocetos de pantallas y las User Stories más importantes, y recibí feedback positivo de ... que mostraron interés en comprarlo. 
 
 ¿Te gustaría discutir las posibilidades de un acuerdo donde yo aporte ... y vos ... "
 
