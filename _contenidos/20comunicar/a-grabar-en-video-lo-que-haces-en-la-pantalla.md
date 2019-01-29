@@ -1,7 +1,7 @@
 ---
 permalink: /a/grabar-en-video-lo-que-haces-en-la-pantalla
 img: /img/video.png
-tags: [compartiri, tutorial]
+tags: [compartir, tutorial]
 ---
 
 Podés grabar lo que vas haciendo la pantalla ej. para subir el video a youtube con estas herramientas.

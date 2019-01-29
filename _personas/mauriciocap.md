@@ -3,6 +3,7 @@ title: MauricioCap
 blog: https://pizarra.podemosaprender.org
 github: podemosaprender
 facebook: mauriciocap
+linkedin: mauriciocap
 trello: 
 soy-de: CABA
 ---

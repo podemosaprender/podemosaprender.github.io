@@ -1,6 +1,6 @@
 ---
 permalink: si-cada-dia/contas-que-vas-a-hacer-y-pedis-ayuda
-tags: ["english","scrum"]
+tags: ["english","scrum","reglas"]
 img: /img/scrum-meeting-pictofigo-wikimedia.png
 ---
 

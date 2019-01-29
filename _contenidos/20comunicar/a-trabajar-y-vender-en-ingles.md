@@ -1,10 +1,19 @@
 ---
 permalink: /a/trabajar-y-vender-en-ingles
 img: /img/lang-eng.png
-tags: [english,ingles,escalerita]
+tags: [english,escalerita]
 ---
 
-Puede hacer __mucha diferencia__ en tus ingresos y posibilidades, porque hay muchos trabajos remotos y accedés a mercados que pagan mejor y piden más servicios 
+Puede hacer __mucha diferencia__ en tus ingresos y posibilidades, porque hay muchos trabajos remotos y accedés a mercados que pagan mejor y piden más servicios. 
+
+El concepto de "niveles" que uso para contratar y que pido en las clases es
+
+1. Apenas entiende
+2. Usa frases que memorizó
+3. Adapta lo que conoce
+4. Improvisa según necesite
+
+Porque me enfoco en poder ser efectivo en situaciones de trabajo / negocios
 
 Deberías ir mejorando tu nivel de
 1. Aprendés canciones mirando los subtítulos en youtube.
@@ -15,6 +24,8 @@ Deberías ir mejorando tu nivel de
 6. Podés escribir un artículo y dar una charla ensayada.
 7. Podés encarar y convencer gente.
 8. Podés concretar exitosamente una negociación difícil.
+=======
+
 
 Podés empezar {/usando/frases-en-ingles}.
 
