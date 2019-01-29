@@ -15,7 +15,7 @@ El concepto de "niveles" que uso para contratar y que pido en las clases es
 
 Porque me enfoco en poder ser efectivo en situaciones de trabajo / negocios
 
-Deberías ir mejorando tu nivel de
+Deberías ir mejorando tu nivel de (empieza de 3 porque se aprueba con 4 ... )
 
 {:start="3"}
 3. Aprendés canciones mirando los subtítulos en youtube.
