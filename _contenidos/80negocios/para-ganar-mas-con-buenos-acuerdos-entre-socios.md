@@ -2,6 +2,7 @@
 permalink: /para/ganar-mas-con-buenos-acuerdos-entre-socios
 title: Para ganar más con buenos acuerdos entre socios
 img: /img/puente-negocio.jpg
+tags: [negocios,acuerdos]
 ---
 
 Saber hacer acuerdos que generen confianza en todas las partes es el paso más importante una vez que aprendiste {/a/pensar-negocios-y-empresas}. Siguiendo la analogía de _construir un puente_ necesitás generar __mucha confianza__ tanto entre las personas que van a _pagar por usar_ como las que van a _poner para hacer y lograr_.
