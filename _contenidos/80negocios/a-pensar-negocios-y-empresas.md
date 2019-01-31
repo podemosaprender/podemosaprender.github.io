@@ -1,6 +1,7 @@
 ---
 permalink: /a/pensar-negocios-y-empresas
 img: /img/puente-negocio.jpg
+tags: [negocios,valor]
 ---
 
 __¡OjO! Esto es un tutorial, VOS sos responsable de tus decisiones laborales y financieras, aprovechá para grabarte a fuego que ningún autor de este u otro texto se va a hacer responsable salvo que sea además tu socio o cliente y lo hayan acordado formalmente en un contrato.__
@@ -99,5 +100,7 @@ Revisá una vez más la imagen del "puente con peaje" que acompaña la foto. ¿Q
     Hay muchas más chances de que tu idea "muera" porque no conseguiste ayuda para realizarla que de que "te la roben". Es difícil hacer cosas entre varias personas, como en el ejemplo de ERREPAR las que logran organizarse primero casi siempre mantienen una ventaja que les garantiza no solo cosechar los frutos sino que otras prefieran colaborar que competir con ellas!
 
 Como en la ilustración, el puente se construye "iterativamente": primero llegás de un lado a otro lo mejor que puedas para asegurarte que vale la pena, después lo hacés crecer. Por eso hicimos por ej. nuestra primer campaña mejorando los perfiles de todos en linkedin, __ampliando nuestra red de contactos__, etc. Por eso insistimos en __armar equipos__ y mejor si son con __habilidades que se complementan__. Por eso pedimos __tu ayuda para integrar a más personas__ y hacer crecer más la comunidad. Por eso estamos teniendo esta charla, para averiguar juntos y para cada persona "¿Qué me das? ¿Qué me cuesta?". ¡La seguimos en el grupo!
+
+Te va a servir {/para/ganar-mas-con-buenos-acuerdos-entre-socios}
 
 {/con/mauriciocap}
