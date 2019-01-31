@@ -14,6 +14,9 @@ Porque te sirve para
 * Usarlos para seguimiento.
 * Integrar todo eso con otras aplicaciones y servicios bien fácil.
 * Y le podés crear una vista web atractiva o reportes también muy fácil {/usando/tutoriales-javascript}, en especial los primeros videos de nuestra playlist.
+* Trabajando con muchas personas a la vez.
+
+Pero además a largo plazo es una muy buena forma de __prototipar sistemas complejos__ (muchas personas, muchas reglas, muchas partes y acciones distribuidas en el tiempo, etc.) __antes__ de perder tiempo y dinero en implementaciones que no sabés si sirven (ej. me sacó las papas del fuego para relevar y prototipar un sistema que movía cientos de millones de dólares por día en operaciones bastante complicadas y rescatar un cliente que venía muy atrasado con su proyecto).
 
 Lo mejor es que lo podés reducir a javascript bastante simple, e ir incorporando las APIs que te hagan falta más adelante. Pero en este video de 30 minutos y sin instalar nada ya tenés para hacer de todo:
 
