@@ -4,7 +4,27 @@ img: /img/abuela-lidia.jpg
 ---
 La clave es "¿qué me dás y qué me cuesta?". No es sólo comercial, si te explico como conseguir un paraguas pero te cuesta estar 3hs bajo la lluvia no sirve, ¿no?
 
-Qué podés mejorar para avanzar tu carrera, más importante primero
+Primero te pongo una checklist rápida, y después te digo en detalle qué podés mejorar para avanzar tu carrera, más importante primero.
+
+# Lista para recorrer todos los días
+
+1. Tengo un mail que se ve profesional  
+  _ej. "paula.dev.android@gmail.com" pero no "pautiramisu0129@hotmail.com"_ 
+
+2. Tengo un perfil en linkedin para que me encuentren  
+  Con mi nombre, el mail profesional, que aunque sea una listita de cosas __de valor__ puedo __hacer__ (ej. desarrollar apps android). La claridad es todo, a la gente que toma decisiones no le gusta que le hagan perder tiempo "surfer and innovator" __no garpa__.
+
+3. Se ve mi __conducta__ y __dedicación__  
+  Participación constructiva en grupos, foros, repositorios, mi twitter, linkedin, etc. ({/si-cada-dia/contas-que-vas-a-hacer-y-pedis-ayuda}. Mínimo links y apreciación de cosas que hacen otras personas, ayudar a testear, sugerencias constructivas y bien fundadas, etc.  
+  Es muy importante mostrar que sos una persona respetuosa, ordenada, y podés __trabajar en equipo__: la persona que te contrate va a pasar más tiempo con vos que con su familia y amigos ... 
+
+4. Tengo logros para mostrar, en github, behance, la nube, etc.  
+  No importa si son simples, se ve que __me pongo__, __hago__, __aprendo__, __comparto__, __puedo trabajar en un equipo__. También suma mucho que se vea que __sabés destrabarte preguntando con toda la info a man para que sea fácil ayudarte__. Con eso se llega casi a cualquier lado!
+
+
+# Qué podés mejorar, en detalle
+
+Más importante primero
 
 ## Conducta y relaciones
 
