@@ -8,19 +8,26 @@ Primero te pongo una checklist rápida, y después te digo en detalle qué podé
 
 # Lista para recorrer todos los días
 
-1. Tengo un mail que se ve profesional  
+Si __no hacés__ estas cosas, es casi __imposible contratarte o recomendarte__, incluso para gente que te conoce y te quiere. Las relaciones comerciales y laborales se basan en la __confianza__ y lleva años de demostraciones consistentes desarrollarla. Nadie se quiere arriesgar a presentar o contratar otra persona y que sea un fiasco. Si no le queda otra que correr el riesgo, te va a pagar mucho menos para que le quede resto para todos los problemas a los que le teme.
+
+Por suerte para vos, fijate __que fácil es hacer esto cada día__ (_tienes un minuto para hablar de la daily?_)
+
+1. Tengo un __mail__ que se ve profesional  
   _ej. "paula.dev.android@gmail.com" pero no "pautiramisu0129@hotmail.com"_ 
 
-2. Tengo un perfil en linkedin para que me encuentren  
+2. Tengo un __perfil en linkedin__ para que me encuentren  
   Con mi nombre, el mail profesional, que aunque sea una listita de cosas __de valor__ puedo __hacer__ (ej. desarrollar apps android). La claridad es todo, a la gente que toma decisiones no le gusta que le hagan perder tiempo "surfer and innovator" __no garpa__.
 
 3. Se ve mi __conducta__ y __dedicación__  
   Participación constructiva en grupos, foros, repositorios, mi twitter, linkedin, etc. ({/si-cada-dia/contas-que-vas-a-hacer-y-pedis-ayuda}. Mínimo links y apreciación de cosas que hacen otras personas, ayudar a testear, sugerencias constructivas y bien fundadas, etc.  
   Es muy importante mostrar que sos una persona respetuosa, ordenada, y podés __trabajar en equipo__: la persona que te contrate va a pasar más tiempo con vos que con su familia y amigos ... 
 
-4. Tengo logros para mostrar, en github, behance, la nube, etc.  
-  No importa si son simples, se ve que __me pongo__, __hago__, __aprendo__, __comparto__, __puedo trabajar en un equipo__. También suma mucho que se vea que __sabés destrabarte preguntando con toda la info a man para que sea fácil ayudarte__. Con eso se llega casi a cualquier lado!
+4. Tengo __logros para mostrar__, en github, behance, la nube, etc.  
+  No importa si son simples, se ve que __me pongo__, __hago__, __aprendo__, __comparto__, __puedo trabajar en un equipo__. También suma mucho que se vea que __sabés destrabarte preguntando con toda la info a man para que sea fácil ayudarte__. Con eso se llega casi a cualquier lado!   
+  Rinde hacer prototipos o solucionar necesidades simples (a veces casi sin trabajar) para la gente que querés que trabaje con vos (ver el punto que sigue)
 
+5. __Conecto__ con personas con las que nos conviene trabajar juntas  
+  Estoy en grupos donde está la gente que le sirve lo que hago (aunque el grupo sea de otra cosa), leo sobre lo que les preocupa y las oportunidades que ven, trato de participar con el mismo lenguaje y si puedo darles pequeñas soluciones usando lo que se. __La confianza es todo__
 
 # Qué podés mejorar, en detalle
 
