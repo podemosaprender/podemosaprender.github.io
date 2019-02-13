@@ -5,6 +5,8 @@ img: /img/usando-youtube.jpg
 
 La más fácil y oficial en el grupo es [nuestra playlist en youtube](https://www.youtube.com/playlist?list=PLuw2k9vttfEz26F_0PTCDOcBeGdzR4vL1&fbclid=IwAR0LdNzZrVVc4cnJ0dbEaMVIaPX1dhCyqZcybB49S7u9j3DcRmI-LZiuQi8) para que puedas mostrar en internet y hacer una tienda que consume una API de blogger aproximadamente en un día.
 
+También está el [super canal de Lucas](https://www.youtube.com/channel/UCtoo4_P6ilCj7jwa4FmA5lQ)
+
 Pero además charlamos con {/con/leandrobarone} que nos escribió esta super guía. 
 
 Durante los últimos años YouTube se convirtió en una herramienta invaluable para desarrolladores novatos y expertos por igual. Participar de esta red social como productor de contenidos permite darse a conocer en el ambiente, ganar prestigio y conseguir más y mejores clientes. Esto llevó a grandes profesionales con décadas de experiencia a compartir sus conocimientos en forma de cursos, vlogs, entrevistas, sesiones de live coding y otros formatos audiovisuales.
