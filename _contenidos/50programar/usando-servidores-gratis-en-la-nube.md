@@ -70,6 +70,16 @@ Esta es una lista de algunas herramientas:
 * Datasets y tutoriales
 * Hicimos unos [videos](https://www.youtube.com/playlist?list=PLuw2k9vttfEzIX9zAstHHKa-RHbr0UkJR) para que puedas empezar fácil
 
+[Google](https://cloud.google.com/)
+
+En especial si haces Ciencia de Datos ...
+
+* Como [crear una máquina virtual con pantalla y usarla mediante una VPN](https://docs.google.com/document/d/1gypC00kJA2w25RkAgEbA9E9CfCde_Pt-vYagx1P-Mo8/edit)
+* [Instalar R Studio en Google Cloud](https://github.com/grantmcdermott/rstudio-compute-engine)
+
+(gracias Martín Castellan)
+
+
 Ayudanos a ampliar la lista, para que todos podamos programar.
 
 Autor {/con/gastonpereyra} Mil gracias por todo lo que compartís!
