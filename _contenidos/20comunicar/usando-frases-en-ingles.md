@@ -54,4 +54,8 @@ Algunas frases que pueden ir usando en las convesaciones o en las dailyStandup. 
 * (Now) that's an interesting question... / Es una pregunta interesante…
 
 
+# Partes del cuerpo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4oNOA3HnGG4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
