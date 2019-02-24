@@ -3,6 +3,19 @@ layout: page
 title: 'Etiquetas'
 ---
 
+<script>
+  (function() {
+    var cx = '003536211728409883517:em8zyibxovi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
 {% assign rawtags = "" %}
 {% for post in site.contenidos %}
 	{% assign ttags = post.tags | join:'|' | append:'|' %}
