@@ -1,8 +1,9 @@
 ---
 permalink: usando/una-escalerita-para-hacer-software
+img: /img/blocks_planner.jpg
 ---
 
-Para que elijas que aprender primero y te puedas formar {/usando/una-escalerita} que te permite trabajar en cada escalón y entender bien qué estás haciendo. No hace falta recorrerla toda y combinando con otras habilidades podés crecer mucho profesionalmente aunque te quedes en el escalón 4.
+Para que elijas qué aprender primero y te puedas formar {/usando/una-escalerita} que te permite trabajar en cada escalón y entender bien qué estás haciendo. No hace falta recorrerla toda y combinando con otras habilidades podés crecer mucho profesionalmente aunque te quedes en el escalón 4. El orden de los escalones no tiene que ver con quién sería jefe de quién sino con que entiendas primero qué hay que hacer, después los detalles de como hacerlo, y al final las consecuencias a largo plazo de elegir diferentes alternativas.
 
 Sabés (el mínimo para trabajar es cuatro)
 1. Compartir tu pantalla y charlar ordenadamente en grupo en Hangouts o Skype. 
