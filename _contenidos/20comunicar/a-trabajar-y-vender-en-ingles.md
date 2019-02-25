@@ -27,15 +27,19 @@ Deberías ir mejorando tu nivel de (empieza de 3 porque se aprueba con 4 ... )
 9. Podés encarar y convencer gente.
 10. Podés concretar exitosamente una negociación difícil.
 
+Fijate este [excelente artículo](https://medium.com/@mariana_riva/nivel-de-ingl%C3%A9s-en-el-cv-72ccd28bfa18) sobre cómo ponerlo en tu CV y cómo lo leen las personas que contratan.
+
+## Cómo aprender
+
 Podés empezar {/usando/frases-en-ingles}.
 
 Suscribite al canal en youtube que compartimos videos para que llegues de nada a mucho ...
 
 <https://www.youtube.com/playlist?list=PLuw2k9vttfEzrjz8-iWGCfuhphkEMERcn>
 
----
-__"Tú Inglés"__
----
+
+### __"Tú Inglés"__
+
 Es un curso completo y gratis compuesto de 71 “sesiones” (clases) que te ayudarán a ejercitar tu oído para el idioma Inglés. 
 
 Las sesiones te enseñarán de una manera amena y divertida las cosas más importantes para hablar bien el inglés, 
