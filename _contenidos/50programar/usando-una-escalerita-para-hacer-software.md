@@ -16,3 +16,12 @@ Sabés (el mínimo para trabajar es cuatro)
 8. Construir y desplegar la versión que quieras de tu solución donde quieras, conservar los datos que estaban (rol de DevOps).
 9. Dividir lo que hay que hacer en partes y elegir que herramientas conectar y cómo para lograrlo con el menor esfuerzo, demora y riesgo posibles (rol de Software Architect)
 10. Elegir estratégicamente en que herramientas invertir el tiempo de la gente que trabaja en tu empresa, y a cual contratar de modo que no se pierdan oportunidades a mediano y largo plazo (rol de CTO).
+
+
+## Video para recorrerla en 1h
+
+Miralo en [youtube](https://www.youtube.com/watch?v=byLXzD0LaDo&list=PLuw2k9vttfEz1SEuu0trISyLu_HH4R8DG)
+
+El [código](https://glitch.com/edit/#!/podemos-aprender-numero-en-palabras) para que lo pruebes y hagas online sin instalar nada.
+
+
