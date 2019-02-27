@@ -1,5 +1,7 @@
 ---
-permalink: usando/una-escalerita-para-hacer-software
+title: Usando una escalerita para hacer una carrera en sistemas
+permalink: usando/una-escalerita-para-hacer-una-carrera-en-sistemas
+redirect_from: "usando/una-escalerita-para-hacer-software"
 img: /img/blocks_planner.jpg
 ---
 
