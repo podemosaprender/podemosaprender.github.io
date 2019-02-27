@@ -7,7 +7,7 @@ Este artículo sirve __para todo tipo de decisiones__ y además podés aprender 
 
 Te alcanza con dos herramientas muy simples: User Stories y saber como probar cosas. Lleva práctica pero da ganancias inmediatas y es divertida.
 
-Te las cuento primero y después revisamos todas las ventajas y algunos desafíos!
+Te las cuento primero y después revisamos todas las ventajas y algunos desafíos! (si querés en [video](https://www.youtube.com/watch?v=btONvZwystk) )
 
 ## User Stories
 
@@ -19,8 +19,8 @@ __Cómo__ (el rol de la protagonista)
 
 Por ejemplo
 
-__Cómo__ persona con responsabilidades y reuniones
-  __Quiero__ que me despierte una alarma a la hora que indiqué
+__Cómo__ persona con responsabilidades y reuniones  
+  __Quiero__ que me despierte una alarma a la hora que indiqué  
   __Para__ llegar a tiempo a mis compromisos y evitar problemas como perderme cosas, aviones, negocios, o que me echen del trabajo.
 
 Fijate el contraste entre lo simple que parece el _quiero_ y lo importante del _para_. También fijate lo que nos cuenta el _como_ sobre toda la vida de la persona que tiene ese rol.
