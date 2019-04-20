@@ -4,7 +4,7 @@ blog:
 github: damianopellegrino
 facebook: dam1891
 linkedin: damiano-pellegrino
-trello: 
+trello:
 soy-de: Durazno, Uruguay
 ---
 
