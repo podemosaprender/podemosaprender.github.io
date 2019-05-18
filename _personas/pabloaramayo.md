@@ -8,4 +8,4 @@ trello:
 soy-de: Salta
 ---
 
-Creando soluciones. 
+Estoy empezando a utilizar arduino para proyectos referidos a mediciones de variables fisicas para digitalizarlas y hacer analisis sobre las mismas.
