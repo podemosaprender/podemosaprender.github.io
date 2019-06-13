@@ -1,6 +1,5 @@
 ---
 title: Damian N
-
 github: victordnc1
 facebook: Victor Damian
 linkedin: -
