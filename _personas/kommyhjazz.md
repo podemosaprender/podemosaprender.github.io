@@ -3,7 +3,7 @@ title: Kommyh
 blog: -------
 github: adriangalvarez
 facebook: kommyh
-linkedin: adriangalvarez (<https://www.linkedin.com/in/adriangalvarez/>)
+linkedin: adriangalvarez (https://www.linkedin.com/in/adriangalvarez/)
 trello: --------
 soy-de: Santa Cruz
 ---
