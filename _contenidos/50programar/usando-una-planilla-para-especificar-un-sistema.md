@@ -26,4 +26,4 @@ El primer relevamiento donde use este método salio buenísimo, nos divertimos, 
 
 Una __moraleja importantísima__ es que especificar un sistema requiere siempre que las personas que lo van a usar entiendan todas las posibilidades y consecuencias y se pongan de acuerdo. Y obviamente conviene desperdiciar la menor cantidad de trabajo y tiempo posible. Por eso reunirlas mirando la misma pantalla y prototipar con una planilla mientras hablan puede ser tan eficiente.
 
-/con/mauriciocap
+{/con/mauriciocap}
