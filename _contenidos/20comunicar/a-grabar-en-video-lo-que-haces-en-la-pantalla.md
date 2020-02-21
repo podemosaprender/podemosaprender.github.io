@@ -24,4 +24,12 @@ Este es el tutorial de UseLoom:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/M3nyNCVMkRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Y el camino de Los Rudos de la Consola Linux para compartir live en youtube:
+```
+#!/bin/sh
 
+STREAM_KEY=$1
+RTMP_URL=rtmp://a.rtmp.youtube.com/live2
+
+ffmpeg -f x11grab -framerate 30 -video_size 1280x720 -i :0.0 -f pulse -i default -c:v libx264 -preset ultrafast -maxrate 2500k -bufsize 5000k -g 60 -vf format=yuv420p -c:a aac -b:a 128k -f flv -segment_list_flags +live $RTMP_URL/$STREAM_KEY
+```
