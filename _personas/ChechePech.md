@@ -5,8 +5,9 @@ github: chechepech
 facebook: chechepech
 linkedin: chechepech
 twitter: chechepech
-trello: ...
+trello:
 soy-de: Yucatán
+
 ---
 
 Desarrollador & Diseñador Web
