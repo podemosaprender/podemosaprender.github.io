@@ -6,7 +6,7 @@ facebook: chechepech
 linkedin: chechepech
 twitter: chechepech
 trello: ...
-soy-de: Yucatán, México
+soy-de: Yucatán
 ---
 
 Desarrollador & Diseñador Web
