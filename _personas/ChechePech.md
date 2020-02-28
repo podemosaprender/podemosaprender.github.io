@@ -4,6 +4,7 @@ blog: https://www.chechepech.gq
 github: chechepech
 facebook: chechepech
 linkedin: chechepech
+twitter: chechepech
 trello: ...
 soy-de: Yucatán, México
 ---
