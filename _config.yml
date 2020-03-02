@@ -1,6 +1,6 @@
 collections:
   personas:
-    permalink: /con/:path
+    permalink: mi_clon_de_podemosaprender/con/:path
     output: true
   contenidos:
     output: true
