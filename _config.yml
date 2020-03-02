@@ -12,7 +12,7 @@ collections:
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
  url: "https://alexielardilla.github.io"
- baseurl: ""
+ baseurl: "/alexielardilla.github.io"
 
 # If you are building a GitHub project page then use these settings:
 # url: "https://alexielardilla.github.io/mi_clon_de_podemosaprender"
