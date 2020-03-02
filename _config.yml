@@ -11,8 +11,8 @@ collections:
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-# url: "https://podemosaprender.org"
-# baseurl: ""
+  url: "https://alexielardilla.github.io/mi_clon_de_podemosaprender"
+  baseurl: "https://alexielardilla.github.io/mi_clon_de_podemosaprender"
 
 # If you are building a GitHub project page then use these settings:
   url: "https://alexielardilla.github.io/mi_clon_de_podemosaprender"
