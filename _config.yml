@@ -1,6 +1,6 @@
 collections:
   personas:
-    permalink: /mi_clon_de_podemosaprender/con/:path
+    permalink: https://alexielardilla.github.io/mi_clon_de_podemosaprender/con/:path
     output: true
   contenidos:
     output: true
@@ -11,7 +11,7 @@ collections:
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
- url: ""https://alexielardilla.github.io/mi_clon_de_podemosaprender"
+ url: "https://alexielardilla.github.io/mi_clon_de_podemosaprender"
  baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
