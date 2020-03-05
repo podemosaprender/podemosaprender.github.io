@@ -1,5 +1,6 @@
 ---
-permalink: /a/liderar-siguiendo-esta-escalerita
+permalink: /a/liderar
+title: A liderar siguiendo esta escalerita
 img: /img/castellers.jpg
 tags: [organizar]
 ---
