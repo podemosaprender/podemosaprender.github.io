@@ -1,7 +1,7 @@
 ---
 permalink: /a/liderar
 title: A liderar siguiendo esta escalerita
-img: /img/castellers.jpg
+img: /img/leader.jpg
 tags: [organizar]
 ---
 

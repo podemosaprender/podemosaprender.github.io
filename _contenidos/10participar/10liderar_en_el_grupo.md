@@ -1,6 +1,7 @@
 ---
 permalink: /a/liderar-en-este-grupo
-img: /img/castellers.jpg
+title: Liderar en este grupo
+img: /img/leader.jpg
 ---
 
 Podés aprender {/a/liderar} en general. El grupo solamente te lo hace más fácil y seguro, y con el apoyo de las personas que tenemos más experiencia.
