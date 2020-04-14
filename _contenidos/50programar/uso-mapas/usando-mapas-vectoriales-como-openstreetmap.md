@@ -82,6 +82,8 @@ Los cambios se suben del mismo modo _envueltos_ en un _changeset_ que podés sub
 
 [OsmChange](https://wiki.openstreetmap.org/wiki/OsmChange)
 
+Aquí se puede ver [un ejemplo](https://www.openstreetmap.org/api/0.6/changeset/17871446/download)
+
 Para nuestro {/usando/microproyecto} hagamos un convertidor de KML de Google Maps a [OSMChangeset](https://wiki.openstreetmap.org/wiki/Changeset). 
 Así podés pasar y actualizar todos tus puntos automáticamente y con los metadatos que les pusiste ej. de obras futuras, etc. y al revés aprender a extraer de OSM lo que te sirva.
 
@@ -104,6 +106,8 @@ OSM tiene un editor visual bastante digno y alcanza [bajarse un .jar](https://jo
 Tiene bastantes plugins que se instalan desde Edit/Preferences y el dibujito del enchufe. Hay uno para leer archivos klm, csv, etc. se llama [OpenData](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData).
 
 Los archivos que importas se agregan como "capas" por encima del mapa de OSM, para agregar tus datos a OSM tenés que seleccionarlos y usar la operación _merge_ ... que debería ser uno por uno para asegurarte que cumplís con los estándares de OSM.
+
+Si el archivo OsmChange que generaste tiene la extensión .osc además del formato que XML requerido, lo podes ver en JOSM como un layer más.
 
 # Más cosas que te podemos ayudar
 
