@@ -9,7 +9,7 @@ La información de un mapa te puede servir para muchas cosas valiosas, por ej. p
 * Información de puntos: posición, de que se trata, etc.
 * Conexiones entre puntos: caminos, cables, caños, trenes, lotes, ciudades, provincias, ríos ... 
 
-Relevar esa información y mantenerla actualizada es _muy costoso_ pero por suerte existe https://www.openstreetmap.org un proyecto de datos abiertos que podemos mantener entre todos.  Yo {/con/mauriciocap/} le saqué muchísimo jugo usándolo para clientes que trabajan con mapas y voy a compartir a continuación algunas cosas para que empieces a aprovecharlo vos también.
+Relevar esa información y mantenerla actualizada es _muy costoso_ pero por suerte existe [Open Street Maps](https://www.openstreetmap.org), un proyecto de datos abiertos que podemos mantener entre todos.  Yo {/con/mauriciocap} le saqué muchísimo jugo usándolo para clientes que trabajan con mapas y voy a compartir a continuación algunas cosas para que empieces a aprovecharlo vos también.
 
 Lo vamos a conectar también con Google Maps, porque 
  los mapas personalizados de Google Maps son fáciles de editar y compartir como otros documentos desde tu navegador y se pueden exportar en un archivo ".kml” fácil de procesar como quieras (es texto, tipo xml).
@@ -20,7 +20,7 @@ Quiero mostrarte como sacar _y agregar_ datos en OSM, porque además de _sacar d
 
 {/con/victorburec} Nos compartió este relevamiento de cruces. Un trabajo que le llevo muchas reuniones, visitas, consultas a distintos organismos. Lo hicieron en Google Maps y el desafío es _mantenerlo actualizado_.
 
-https://www.google.com/maps/d/u/0/viewer?mid=13WNUquvNnENIWzDGPiHEywvviekCjwGs&ll=-34.73450592640373%2C-58.43146750000005&z=10
+Así se ve y puede editar [en Google Maps](https://www.google.com/maps/d/u/0/viewer?mid=13WNUquvNnENIWzDGPiHEywvviekCjwGs&ll=-34.73450592640373%2C-58.43146750000005&z=10)
 
 
 ### ¿Qué puedo sacar de Google Maps (o cualquier otro lado)?
@@ -80,20 +80,20 @@ Como está generado por un programa además es muy fácil de procesar incluso si
 
 Los cambios se suben del mismo modo _envueltos_ en un _changeset_ que podés subir para que pueda seguir editando la comunidad
 
-https://wiki.openstreetmap.org/wiki/OsmChange
+[OsmChange](https://wiki.openstreetmap.org/wiki/OsmChange)
 
 Para nuestro {/usando/microproyecto} hagamos un convertidor de KML de Google Maps a [OSMChangeset](https://wiki.openstreetmap.org/wiki/Changeset). 
 Así podés pasar y actualizar todos tus puntos automáticamente y con los metadatos que les pusiste ej. de obras futuras, etc. y al revés aprender a extraer de OSM lo que te sirva.
 
-Lo único que necesitamos es entender cómo se guardan en OSM, pero por suerte la wiki es muy completa y hay todavía más herramientas, por ej. este buscador  http://tagfinder.herokuapp.com/search?query=crossing
+Lo único que necesitamos es entender cómo se guardan en OSM, pero por suerte la wiki es muy completa y hay todavía más herramientas, por ej. [este buscador](http://tagfinder.herokuapp.com/search?query=crossing)
 
 El objetivo es agregar los datos extra de la forma más parecida posible a los que están en OSM de modo de integrarlos a la comunidad, que sirvan, y que se sigan actualizando-
 
 En el peor caso hay una ["note" genérica](https://wiki.openstreetmap.org/wiki/Key%3Anote) pero tratemos de ser más específicos.
 
-En nuestro caso para los cruces de vías de ferrocarril buscando en el mapa y la wiki encontramos que tenemos que generar elementos de tipo Node con este tag https://wiki.openstreetmap.org/wiki/Tag:railway%3Dcrossing
+En nuestro caso para los cruces de vías de ferrocarril buscando en el mapa y la wiki encontramos que tenemos que generar elementos de tipo Node con [este tag](https://wiki.openstreetmap.org/wiki/Tag:railway%3Dcrossing)
 
-Además existen anotaciones definidas para varios de los datos que nos interesan por ej. start_date y end_date https://wiki.openstreetmap.org/wiki/Map_Features#Annotation
+Además existen [anotaciones](https://wiki.openstreetmap.org/wiki/Map_Features#Annotation) definidas para varios de los datos que nos interesan por ej. start_date y end_date 
 
 Entonces nuestro trabajo es simplemente convertir nuestros datos de KML o una tabla o planilla o ... a un archivo de texto con el formato de OSM, y si queremos al revés leer el texto del archivo de OSM y convertirlo en una planilla por ej.
 
@@ -101,7 +101,7 @@ Entonces nuestro trabajo es simplemente convertir nuestros datos de KML o una ta
 
 OSM tiene un editor visual bastante digno y alcanza [bajarse un .jar](https://josm.openstreetmap.de/wiki/Download) para tenerlo en tu compu. Te permite hacer el ciclo completo de bajar datos para una región __pequeña__, editarlos, y subirlos a OSM.
 
-Tiene bastantes plugins que se instalan desde Edit/Preferences y el dibujito del enchufe. Hay uno para leer archivos klm, csv, etc. se llama [OpenData]( https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData).
+Tiene bastantes plugins que se instalan desde Edit/Preferences y el dibujito del enchufe. Hay uno para leer archivos klm, csv, etc. se llama [OpenData](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData).
 
 Los archivos que importas se agregan como "capas" por encima del mapa de OSM, para agregar tus datos a OSM tenés que seleccionarlos y usar la operación _merge_ ... que debería ser uno por uno para asegurarte que cumplís con los estándares de OSM.
 
