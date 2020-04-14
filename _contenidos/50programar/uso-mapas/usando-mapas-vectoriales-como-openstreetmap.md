@@ -107,10 +107,11 @@ Los archivos que importas se agregan como "capas" por encima del mapa de OSM, pa
 
 # Más cosas que te podemos ayudar
 
+* Podés bajar el archivo con datos para [toda Argentina](https://download.geofabrik.de/south-america/argentina.html) El que esta en formato xml fácil es el .osm.bz2 y se procesa cómodamente usando less, grep, etc. en la consola de linux.
+* Extraer los datos de OSM a una base de datos relacional o el formato que necesites.
 * Mostrar y editar tus mapas en la web usando [Leaflet](https://leafletjs.com/)
 * Fabricar tus propios _tiles_ para mostrar en Leaflet, con datos vectoriales, en el servidor o al vuelo en el browser.
 * Otras herramientas para trabajar con información geográfica por ej. en entornos para ciencia de datos como Google Colab, R, etc.
-
 
 
 
