@@ -9,7 +9,7 @@ La información de un mapa te puede servir para muchas cosas valiosas, por ej. p
 * Información de puntos: posición, de que se trata, etc.
 * Conexiones entre puntos: caminos, cables, caños, trenes, lotes, ciudades, provincias, ríos ... 
 
-Relevar esa información y mantenerla actualizada es _muy costoso_ pero por suerte existe [Open Street Maps](https://www.openstreetmap.org), un proyecto de datos abiertos que podemos mantener entre todos.  Yo {/con/mauriciocap} le saqué muchísimo jugo usándolo para clientes que trabajan con mapas y voy a compartir a continuación algunas cosas para que empieces a aprovecharlo vos también.
+Relevar esa información y mantenerla actualizada es _muy costoso_ pero por suerte existe [Open Street Maps](https://www.openstreetmap.org), un proyecto de datos abiertos que podemos mantener entre todos.  Yo ( estás charlando {/con/mauriciocap} ) le saqué muchísimo jugo usándolo para clientes que trabajan con mapas y voy a compartir a continuación algunas cosas para que empieces a aprovecharlo vos también.
 
 Lo vamos a conectar también con Google Maps, porque 
  los mapas personalizados de Google Maps son fáciles de editar y compartir como otros documentos desde tu navegador y se pueden exportar en un archivo ".kml” fácil de procesar como quieras (es texto, tipo xml).
@@ -34,7 +34,7 @@ El que exporta Google Maps es así:
 ~~~
 <Placemark>
 	<name>MITRE/BARTOLOME</name>
-	<description><![CDATA[L�nea: Belgrano Norte<br>Ramal: Retiro - Villa Rosa<br>Servicio: Cargas y pasajeros<br>Nom. Alt.: MITRE BME. AV.<br>Obs.: -<br>Actualidad: Paso bajo nivel<br>2019: Paso bajo nivel<br>2023: Paso bajo nivel<br>Tipo Obra: No hay obra proyectada<br>Estado: -<br>Progresiva: 14,66200<br>Año estimado de Obra: -<br>Última actualización: enero 2017]]></description>
+	<description><![CDATA[Línea: Belgrano Norte<br>Ramal: Retiro - Villa Rosa<br>Servicio: Cargas y pasajeros<br>Nom. Alt.: MITRE BME. AV.<br>Obs.: -<br>Actualidad: Paso bajo nivel<br>2019: Paso bajo nivel<br>2023: Paso bajo nivel<br>Tipo Obra: No hay obra proyectada<br>Estado: -<br>Progresiva: 14,66200<br>Año estimado de Obra: -<br>Última actualización: enero 2017]]></description>
 	<styleUrl>#icon-1784-0F9D58</styleUrl>
 	<ExtendedData>
 		<Data name="L�nea"> <value>Belgrano Norte</value> </Data> 
