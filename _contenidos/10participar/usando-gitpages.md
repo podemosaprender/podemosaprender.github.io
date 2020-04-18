@@ -7,9 +7,13 @@ Es fácil compartir archivos en la web, sin instalar nada, e incluso mantener un
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hgp2NEwusUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## Tareas avanzadas
+## Tareas avanzadas que hacemos para agregar los cambios al repo principal que se muestra en podemosaprender.org
 
-Si te toca mezclar un rango de commits desde un pull request u otro repo, me sirvio mucho [esta guía](https://feeding.cloud.geek.nz/posts/cherry-picking-range-of-git-commits/) Básicamente
+Si te toca mezclar un rango de commits desde un pull request u otro repo, me sirvió mucho [esta guía](https://feeding.cloud.geek.nz/posts/cherry-picking-range-of-git-commits/) 
+
+Si anda en tu versión de git podés hacer `git cherry-pick 7f545188^..a7785c10 `
+
+Sino básicamente
 
 * Creas una rama para traerte los cambios con `git checkout -b otra-rama-master master`
 * Te traes los cambios a la rama que creaste `git pull https://github.com/fulano/su_repo.git master`
@@ -20,7 +24,6 @@ Si te toca mezclar un rango de commits desde un pull request u otro repo, me sir
 * Y apuntás al último commit de tempbranch `git reset --hard tempbranch`
 * Ya podés borrar la rama temporal `git branch -d tempbranch`
 
-
 `git tree` es un alias cómodo para agregar a tu gitconfig
 
 ~~~
@@ -28,3 +31,4 @@ Si te toca mezclar un rango de commits desde un pull request u otro repo, me sir
 tree = log --oneline --decorate --graph
 ~~~
 
+Y agrego [esta explicación](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase) con buenos gráficos de como funciona _esta magia_ 
