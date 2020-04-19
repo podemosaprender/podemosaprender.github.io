@@ -3,8 +3,8 @@ title: Javier "postre" Rodriguez
 blog: 
 github: postre
 trello: 
-facebook: https://www.facebook.com/javierPostre
-linkedin: https://www.linkedin.com/in/javier-rodriguez-2354bb26/
+facebook: javierPostre
+linkedin: javier-rodriguez-2354bb26
 soy-de: Quilmes
 ---
 
