@@ -37,6 +37,10 @@ Suscribite al canal en youtube que compartimos videos para que llegues de nada a
 
 <https://www.youtube.com/playlist?list=PLuw2k9vttfEzrjz8-iWGCfuhphkEMERcn>
 
+También está muy buena esta página/app donde escuchás una canción y tenés que ir rellenando palabras de la letra ... (gracias Julieta Ansola Berreaute)
+
+<https://es.lyricstraining.com/>
+
 
 ### __"Tú Inglés"__
 
