@@ -1,4 +1,5 @@
 ---
+title: Usando distintos tipos de actividad
 permalink: usando/tipos-actividad
 tags: ["scrum","reglas"]
 img: /img/scrum-meeting-pictofigo-wikimedia.png
