@@ -3,7 +3,7 @@ title: carloszramela
 blog: https://pizarra.podemosaprender.org
 github: carloszramela
 facebook: carlos zinchuk ramela
-linkedin: 
+linkedin: Carlos Zinchuk Ramela
 trello: 
 soy-de: Chaco
 ---
