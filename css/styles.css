@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(../images/manosunidas.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+.subtitulo {
+  font-size: 21px;
+  font-weight: 900;
+}
+
+.naranja {
+  color: #e64a19;
+}
+
+.white {
+  color: white;
+}
+
+.amarillo {
+  color: #ff8f00;
+}
+
+.bginfo-oscuro {
+  color: #077c8f;
+}
+
+.stroke {
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000,
+    2px -2px 1px #000;
+}
