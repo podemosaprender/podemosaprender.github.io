@@ -22,7 +22,13 @@ common-js:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podemos Aprender</title>
 
-    <!-- Icon -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="./images/logopodemosaprender.png" />
 
     <!-- Bootstrap -->
@@ -32,59 +38,269 @@ common-js:
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
     crossorigin="anonymous"
   />
-    <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Icons redes sociales -->
+  <script
+  src="https://kit.fontawesome.com/c9259f0d4f.js"
+  crossorigin="anonymous">
+</script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="header">
-        <h1 class="amarillo stroke">Podemos Aprender</h1>
-            <p class="subtitulo white stroke">Comunidad donde nos reunimos para conseguir un trabajo mejor, para conseguir clientes y para crecer como personas</p>   
-            <p class="subtitulo white stroke">En áreas de <span class="bginfo-oscuro">IT</span> y en otras<span class="bginfo-oscuro"> profesiones</span> u <span class="bginfo-oscuro">oficios</span></p> 
+
+  <!-- Header -->
+
+   <header class="header" id="header">
+    <a class="skip2content-link" href="#Inicio">Saltar al contenido</a>
+
+  <!-- Nav -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-info mb-5">
+    <img src="images/logopodemosaprender.png"  alt="logopodemosaprender" width="50px" height="63px">
+    <a class="navbar-brand ml-3" href="#Inicio" aria-label="Hacé un click para ir a Inicio" tabindex="0">Podemos Aprender</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Inicio" tabindex="0">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#quienessomos" tabindex="0">¿Quiénes somos?</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="0">
+            Aprendemos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#a" tabindex="0">A</a>
+            <a class="dropdown-item" href="#con" tabindex="0">Con</a>
+            <a class="dropdown-item" href="#para" tabindex="0">Para</a>
+            <a class="dropdown-item" href="#usando" tabindex="0">Usando</a>
+            <a class="dropdown-item" href="#si-cada-día" tabindex="0">Si cada día</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tags.html" tabindex="0">Temas</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+        <div>
+          <h1 class="amarillo stroke">Podemos Aprender</h1>
+          <div class="subtitulo">
+            <p class="white">TE GUSTARÍA:</p> 
+            <p class="white">Mejores trabajos, Más clientes, Nuevos negocios, Crecimiento personal </p> 
+            <p class="white">¿Y otras áreas más? </p>
+          </div>
+            <a class="button m-3" href="https://www.facebook.com/groups/PodemosAprender/" target="_blank" aria-label="Visitar Podemos Aprender en Facebook" tabindex="0">Comienza ahora</a> 
+          </div>
+  
+
     </header>
 
-    <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <img src="images/logopodemosaprender.png" width="40px" height="60px">
-        <a class="navbar-brand ml-3" href="#">Podemos Aprender</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Herramientas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Participantes</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Temas
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Agregar</a>
-                <a class="dropdown-item" href="#">Agregar</a>
-                <a class="dropdown-item" href="#">Agregar</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
       <!-- Inicio -->
-      <div class= "row no-gutters mt-5 ml-3 mr-3">
+
+    <main>
+      <div class= "row no-gutters mt-4 ml-3 mr-3 mb-3 texto-div">
+        <div class="about-text" class="col-lg-12 col-lg-offset-2 col-md-10 col-md-offset-1">
           
-          <p>PodemosAprender es una comunidad donde nos reunimos para practicar en persona o a través de internet. Aprendemos a programar, a vender, a organizar, a hacer negocios.</p>
-          <p> Pero sólo podemos si cada día con nuestras acciones avanzamos y no retrocedemos. Si conectamos con un equipo o con la persona justa lograremos ejecutar proyectos y conseguir resultados.</p>
-          <p>El foco está en desarrollar una red amplia de personas con intereses, formación, contactos y nivel socio-económico diversos pero que practica una forma de trabajar en conjunto y se ayudan porque solamente ganan personas distintas que pueden trabajar de manera interdisciplinaria.</p>
-       
-        {{ content }}
+          <p id="Inicio"><b>Podemos Aprender (PA)</b> es un espacio colaborativo, en donde cada integrante de la comunidad aporta sus conocimientos para que todos lo podamos aprovechar.</p>
+          <p> En <b>PA</b> aprendemos a programar, vender, organizar o hacer negocios a través de la experiencia de otros. <b>Esto te permitirá:</b></p>
+        </div>
+        <div class=" m-2 p-2 lista">
+          <ul>
+            <li>Utilizar recursos ya desarrollados que los integrantes comparten.</li>
+            <li>Conectar con equipos o personas ya preparadas para ejecutar proyectos y conseguir resultados.</li>
+            <li>Formar parte de una red amplia y diversa en cuanto a profesiones, nivel de formación y socio-económico.</li>
+            <li>Practicar como trabajar en equipo de manera interdisciplinaria.</li>
+            <li>Experimentar de primera mano como un grupo de personas diferentes hacen del aprendizaje continuo un método de trabajo enriquecedor y económicamente viable.</li>
+            <li>Descubrir herramientas nuevas que puedes aplicar a tu trabajo para optimizarlo.</li>
+          </ul>
+          
+        </div>
         
       </div>
+
+      <div align="center"><img src="images/logopodemosaprender.png" alt="" width="300px" height="500px" class="img-fluid logo-shadow"></div>
+
+
+
+      <!-- Cards -->
+
+      <h2 class="m-5 text-center red"><b>Los #Hashtag que utilizamos</b></h2> 
+      <div class="hashtags row ml-4 mr-4 mt-3 mb-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card-container mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">#Hacelo Personal</h3>
+              </div>
+              <div class="card-body">
+              <img class="card-img-top mb-3" src="images/goal.svg" alt="">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Comparte tu experiencia personal, cuenta que sabes hacer y como consigues avanzar. Tu historia puede ayudar a otros a encontrar el camino para crecer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card-container mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">#Invitame A Charlar</h3>
+              </div>
+              <div class="card-body">
+              <img class="card-img-top mb-3" src="images/coworking-mor-osc.svg" alt="">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Una buena charla puede transformarse en el inicio de un proyecto o aportar una solución a un problema. ¡Anímate a comenzar una en el grupo!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card-container mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">#Armar Una Banda</h3>
+              </div>
+              <div class="card-body">
+              <img class="card-img-top mb-3" src="images/team-support.png" alt="">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Genera proyectos y arma un equipo de trabajo con miembros del grupo. Aprende de otros, aprovecha las interacciones y usa los resultados para agregar a tu portfolio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card-container mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title text-center">#Conseguir Mejor Trabajo</h3>
+              </div>
+              <div class="card-body">
+              <img class="card-img-top mb-3" src="images/handshake.svg" alt="">
+              </div>
+              <div class="card-body">
+                <p class="card-text">Recomienda a los miembros del grupo, publica o responde a oportunidades en <a style="color:black" href="https://www.facebook.com/groups/WeCanWorkTogether/" target="_blank"
+                  aria-label="Visitar We Can Word Together, bolsa laboral de Podemos Aprender"><b>We Can Work Together</b></a>, el grupo de empleo de PA en Facebook.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- ¿Quiénes Somos? -->
+
+      <div class= "row no-gutters mt-5 ml-3 mr-3 mb-3 texto-div">
+        <div class="about-text" class="col-lg-12 col-lg-offset-2 col-md-10 col-md-offset-1">
+          
+          <h2 id="quienessomos" class="celeste pb-5"><b>¿Quiénes somos?</b></h2> 
+
+          <p><b>Podemos Aprender (PA)</b> es un grupo de personas que comparten experiencias para facilitar los aprendizajes de todos los integrantes de la "banda". <b>PA</b> es un espacio seguro donde los diálogos e intercambios se basan en el respeto por las ideas, las diferencias y los proyectos que se presentan. En este lugar no se pregunta nada personal.</p>
+          <p>Aquí encontrarás profesionales de todo tipo, maestros de oficios, escritores, artistas, especialistas en marketing, diseñadores, científicos y mentores en potencia. Es un espacio ecléctico, donde la diversidad potencia las ideas y la meta es que todos crezcan laboralmente.</p>
+          <p>Este sitio es una prueba de lo que podemos aprender y podemos hacer reuniendo nuestros conocimientos y consensuando opiniones. Las experiencias no se pueden transmitir, pero los aprendizajes de las mismas se comparten en <b>PA</b> con absoluta libertad.</p>
+        </div>
+        
+      </div>
+
+      <div align="center"><img src="images/logopodemosaprender.png" alt="" width="300px" height="500px"class="img-fluid logo-shadow"></div>
+
+
+      <!-- Testimonios -->
+
+      <div class="container mb-5">
+          <h2 class="text-center red mb-5"><b>Miembros de Podemos Aprender dicen:</b></h2>
+        <div id="demo" class="carousel slide" data-interval="false" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption">
+                        <p>Podés encontrar muchos sitios que ofrecen conocimiento como caramelos, pero pocos espacios para aprender. ¿Aprender qué? A ser mejor persona y profesional, a trabajar en equipo y a compartir.</p> 
+                        <img src="images/navalos_200x200.png" alt="">
+                        <div class="image-caption">Noelia Avalos</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.</p> 
+                        <img src="https://i.imgur.com/QptVdsp.jpg" alt="" class="img-fluid">
+                        <div class="image-caption">Cromption Greves</div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-caption">
+                        <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.</p> 
+                        <img src="https://i.imgur.com/jQWThIn.jpg" alt="" class="img-fluid">
+                        <div class="image-caption">Harry Mon</div>
+                    </div>
+                </div>
+            </div> <a class="carousel-control-prev" href="#demo" data-slide="prev" aria-label="Volver a un testimonio anterior"> <i class='fas fa-arrow-left'></i> </a> <a class="carousel-control-next" href="#demo" data-slide="next" aria-label="Avanzar a un testimonio siguiente"> <i class='fas fa-arrow-right'></i> </a>
+        </div>
+    </div>
+
+  </main>
+      <!-- Footer -->
+
+      <footer class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+         <div class="col-lg-4 col-md-4 col-12 text-center">
+           <a href="https://www.podemosaprender.org/" target="_blank"><img src="./images/logopodemosaprender.png" alt="Logo Podemos Aprender. Hacé un click para ir a Inicio" width="100px" height="120px" ></a>
+           <ul class="enlace negrita">
+            <li><a class="gris" href="#Inicio" tabindex="0">Inicio</a></li>
+            <li><a class="gris" href="#quienessomos" tabindex="0">¿Quiénes Somos?</a></li>
+            <li><a class="gris" href="#tags.html" tabindex="0">Temas</a></li>
+          </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12 subrayado">
+            <h3 class="text-center"><a class="titulopa" href="#header" aria-label="Hacé un click para ir al encabezado" tabindex="0">Podemos Aprender</a></h3>
+            <ul class="enlace">
+              <li><a class="gris" href="#a" aria-label="Hacé un click para ir a Podemos Aprender a" tabindex="0">A programar, organizar, hacer negocios. </a></li>
+              <li><a class="gris" href="#con" aria-label="Hacé un click para ir a Podemos Aprender con" tabindex="0">Con un equipo o con la persona justa.</a></li>
+              <li><a class="gris" href="#para" aria-label="Hacé un click para ir a Podemos Aprender para" tabindex="0">Para beneficiarnos y beneficiar a otros.</a></li>
+              <li><a class="gris" href="#usando" aria-label="Hacé un click para ir a Podemos Aprender usando" tabindex="0">Usando herramientas, métodos, etc.</a></li>
+              <li><a class="gris" href="#si-cada-día" aria-label="Hacé un click para ir a Podemos Aprender si cada día" tabindex="0">Si cada día avanzamos, sin retroceder.</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4 col-12 text-center">
+            <h4 class="h4"><b>La experiencia de aprender está a un click:</b></h4>
+            <a href="https://www.facebook.com/groups/PodemosAprender/" target="_blank"
+                aria-label="Visitar Podemos Aprender en Facebook" tabindex="0"><i class="fab fa-facebook icon"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCQ_UmuIV8HeWlcdBQW__wDw" target="_blank"
+                aria-label="Visitar Podemos Aprender en YouTube" tabindex="0"><i class="fab fa-youtube icon"></i>
+              </a>
+              <a href="https://twitter.com/BandaPAprender" target="_blank"
+                aria-label="Visitar Podemos Aprender en Twitter" tabindex="0"><i class="fab fa-twitter icon"></i>
+              </a>
+              <a href="mailto:info@podemosaprender.org" target="_blank"
+                aria-label="Mandar un email a info@podemosaprender.org" tabindex="0"><i class="far fa-envelope icon"></i>
+              </a>
+              <a href="https://github.com/podemosaprender" target="_blank"
+                aria-label="Participar en github de Podemos Aprender" tabindex="0"><i class="fab fa-github icon"></i>
+              </a>
+              
+              <p class="gris">Forma parte de la comunidad PA, súmate a nuestras redes sociales, participa en github o envíanos un email.</p>
+              
+        </div>
+ 
+      </div>
+     
+    </footer>
+
+    <p class="footer-bottom-text m-0">PodemosAprender.org  •  2021  • by Jekyll</p>
+
 
        <!-- JS, Popper.js, and jQuery -->
     <script
