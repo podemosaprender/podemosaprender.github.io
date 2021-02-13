@@ -15,12 +15,12 @@ collections:
 # baseurl es solo la carpeta, ej. en gitpages /miprueba
 
 # ej. Si es tu sitio principal (sin carpeta)
-url: "https://podemosaprender.org"
+url: "https://www.podemosaprender.org"
 baseurl: ""
 
 # ej. Si es un proyecto mas en tu usuario de github (pone tu usuario y proyecto)
 # url: "http://ana.github.io/bandapaginapa_202102"
-url: "http://podemosaprender.org/bandapaginapa_202102"
+url: "https://www.podemosaprender.org/bandapaginapa_202102"
 baseurl: "/bandapaginapa_202102"
 
 
