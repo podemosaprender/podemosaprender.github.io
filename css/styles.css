@@ -223,7 +223,7 @@ nav {
 }
 
 .card-container {
-  height: 25em;
+  height: 30em;
   background: linear-gradient(to right, #c31432, #240b36);
   display: flex;
   border-radius: 12px;
@@ -232,16 +232,16 @@ nav {
 .card {
   background-color: white;
   display: grid;
-  grid-template-rows: 4em 7em 13em;
+  grid-template-rows: 3em 13em 12em;
   justify-content: center;
   border-radius: 6px;
-  height: 24em;
+  height: 29em;
   margin: auto;
   width: 93%;
 }
 
 .card-img-top {
-  width: 40%;
+  width: 50%;
   display: block;
   margin: auto !important;
 }
