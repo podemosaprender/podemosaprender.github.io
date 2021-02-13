@@ -9,7 +9,7 @@ layout: base
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 		{% if page.img %}
-			<img src="/podemosaprenderprueba{{page.img}}" alt="ilustracion" class="ilustracion_impar">
+			<img src="{{ site.url }}{{ page.img }}" alt="ilustracion" class="ilustracion_impar">
 		{% endif %}
 
 		{% assign kws = 'para a con pero porque si-logramos si-cada-dia usando' | split: ' ' %}
