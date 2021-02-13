@@ -14,8 +14,6 @@ common-js:
   - "/js/main.js"
 ---
 
-<!-- PLANTILLA:NUEVA -->
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -30,7 +28,7 @@ common-js:
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
 
     <!-- PLANTILLA:Favicon -->
-    <link rel="icon" type="image/png" href="./images/logopodemosaprender.png" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/images/logopodemosaprender.png" />
 
     <!-- PLANTILLA:Bootstrap -->
     <link
@@ -47,7 +45,7 @@ common-js:
 </script>
 
   <!-- PLANTILLA:CSS -->
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="{{ site.url }}/css/styles.css">
 
 </head>
 <body>
@@ -61,7 +59,7 @@ common-js:
   <!-- PLANTILLA:Nav -->
 
   <nav class="navbar navbar-expand-lg navbar-light bg-info mb-5">
-    <img src="images/logopodemosaprender.png"  alt="logopodemosaprender" width="50px" height="63px">
+  <img src="{{ site.url }}/images/logopodemosaprender.png"  alt="logopodemosaprender" width="50px" height="63px">
     <a class="navbar-brand ml-3" href="#Inicio" aria-label="Hacé un click para ir a Inicio" tabindex="0">Podemos Aprender</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -79,15 +77,15 @@ common-js:
             Aprendemos
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="a" tabindex="0">A</a>
-            <a class="dropdown-item" href="con" tabindex="0">Con</a>
-            <a class="dropdown-item" href="para" tabindex="0">Para</a>
-            <a class="dropdown-item" href="usando" tabindex="0">Usando</a>
-            <a class="dropdown-item" href="si-cada-dia" tabindex="0">Si cada día</a>
+            <a class="dropdown-item" href="{{ site.url }}/a" tabindex="0">A</a>
+            <a class="dropdown-item" href="{{ site.url }}/con" tabindex="0">Con</a>
+            <a class="dropdown-item" href="{{ site.url }}/para" tabindex="0">Para</a>
+            <a class="dropdown-item" href="{{ site.url }}/usando" tabindex="0">Usando</a>
+            <a class="dropdown-item" href="{{ site.url }}/si-cada-dia" tabindex="0">Si cada día</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="tags.html" tabindex="0">Temas</a>
+          <a class="nav-link" href="{{ site.url }}/tags" tabindex="0">Temas</a>
         </li>
       </ul>
     </div>
@@ -134,7 +132,7 @@ common-js:
         
       </div>
 
-      <div align="center"><img src="images/logopodemosaprender.png" alt="" width="300px" height="500px" class="img-fluid logo-shadow"></div>
+      <div align="center"><img src="{{ site.url }}/images/logopodemosaprender.png" alt="" width="300px" height="500px" class="img-fluid logo-shadow"></div>
       
       <!-- PLANTILLA:Inicio:FIN -->
 
@@ -151,7 +149,7 @@ common-js:
                 <h3 class="card-title text-center">#Hacelo Personal</h3>
               </div>
               <div class="card-body">
-              <img class="card-img-top mb-3" src="images/goal.svg" alt="">
+              <img class="card-img-top mb-3" src="{{ site.url }}/images/goal.svg" alt="">
               </div>
               <div class="card-body">
                 <p class="card-text">Comparte tu experiencia personal, cuenta qué sabes hacer y cómo consigues avanzar. Tu historia puede ayudar a otros a encontrar el camino para crecer.</p>
@@ -166,7 +164,7 @@ common-js:
                 <h3 class="card-title text-center">#Invitame A Charlar</h3>
               </div>
               <div class="card-body">
-              <img class="card-img-top mb-3" src="images/coworking-mor-osc.svg" alt="">
+              <img class="card-img-top mb-3" src="{{ site.url }}/images/coworking-mor-osc.svg" alt="">
               </div>
               <div class="card-body">
                 <p class="card-text">Una buena charla puede transformarse en el inicio de un proyecto o aportar una solución a un problema. ¡Anímate a comenzar una en el grupo!</p>
@@ -181,7 +179,7 @@ common-js:
                 <h3 class="card-title text-center">#Armar Una Banda</h3>
               </div>
               <div class="card-body">
-              <img class="card-img-top mb-3" src="images/team-support.png" alt="">
+              <img class="card-img-top mb-3" src="{{ site.url }}/images/team-support.png" alt="">
               </div>
               <div class="card-body">
                 <p class="card-text">Genera proyectos y arma un equipo de trabajo con miembros del grupo. Aprende de otros, aprovecha las interacciones y usa los resultados para agregar a tu portfolio.</p>
@@ -196,7 +194,7 @@ common-js:
                 <h3 class="card-title text-center">#Conseguir Mejor Trabajo</h3>
               </div>
               <div class="card-body">
-              <img class="card-img-top mb-3" src="images/handshake.svg" alt="">
+              <img class="card-img-top mb-3" src="{{ site.url }}/images/handshake.svg" alt="">
               </div>
               <div class="card-body">
                 <p class="card-text">Recomienda a los miembros del grupo, publica o responde a oportunidades en <a style="color:black" href="https://www.facebook.com/groups/WeCanWorkTogether/" target="_blank"
@@ -225,7 +223,7 @@ common-js:
         
       </div>
 
-      <div align="center"><img src="images/logopodemosaprender.png" alt="" width="300px" height="500px"class="img-fluid logo-shadow"></div>
+      <div align="center"><img src="{{ site.url }}/images/logopodemosaprender.png" alt="" width="300px" height="500px"class="img-fluid logo-shadow"></div>
 
 
       <!-- PLANTILLA:Testimonios -->
@@ -237,14 +235,14 @@ common-js:
                 <div class="carousel-item active">
                     <div class="carousel-caption">
                         <p>Podés encontrar muchos sitios que ofrecen conocimiento como caramelos, pero pocos espacios para aprender. ¿Aprender qué? A ser mejor persona y profesional, a trabajar en equipo y a compartir.</p> 
-                        <img src="images/navalos_200x200.png" alt="">
+                        <img src="{{ site.url }}/images/navalos_200x200.png" alt="">
                         <div class="image-caption">Noelia Avalos</div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="carousel-caption">
                         <p>Cuando empecé a trabajar por mi cuenta sentí lo desafiante y único que puede ser buscar el camino propio. En PA encontré la compañia, la ayuda y los métodos que me guiaron para mantener el entusiasmo y llegar a dónde quería.</p> 
-                        <img src="images/FerCatz.jpg" alt="">
+                        <img src="{{ site.url }}/images/FerCatz.jpg" alt="">
                         <div class="image-caption">Fer Catz</div>
                     </div>
                 </div>
@@ -272,7 +270,7 @@ common-js:
       <footer class="container-fluid">
         <div class="row justify-content-center align-items-center">
          <div class="col-lg-4 col-md-4 col-12 text-center">
-           <a href="https://www.podemosaprender.org/" target="_blank"><img src="./images/logopodemosaprender.png" alt="Logo Podemos Aprender. Hacé un click para ir a Inicio" width="100px" height="120px" ></a>
+           <a href="https://www.podemosaprender.org/" target="_blank"><img src="{{ site.url }}/images/logopodemosaprender.png" alt="Logo Podemos Aprender. Hacé un click para ir a Inicio" width="100px" height="120px" ></a>
            <ul class="enlace negrita">
             <li><a class="gris" href="#Inicio" tabindex="0">Inicio</a></li>
             <li><a class="gris" href="#quienessomos" tabindex="0">¿Quiénes Somos?</a></li>
