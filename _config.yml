@@ -19,8 +19,8 @@ url: "https://podemosaprender.org"
 baseurl: ""
 
 # ej. Si es un proyecto mas en tu usuario de github (pone tu usuario y proyecto)
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+url: "http://podemosaprender.github.io/bandapaginapa_202102"
+baseurl: "/bandapaginapa_202102"
 
 
 # Name of website
