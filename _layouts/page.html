@@ -28,15 +28,6 @@ layout: base
 			A: reemplace links a contenido y paginas
 		{% endcomment %}
 
-		{% comment %}
-		{% for kw in kws %}
-			{% assign mark= '/' | append: kw | append: '/' %}
-			{% assign val= '<span class="kw kw_' | append: kw | append: '">/' | append: kw | append: '/<span>'  %}
-			{% assign html= html | replace: mark, val %}
-		{% endfor %}
-		XXX: no funciona, reemplaza dentro de links, ojo
-		{% endcomment %}
-		
 		{{ html }}
 
       {% if page.tags.size > 0 %}

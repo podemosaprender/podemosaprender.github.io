@@ -4,6 +4,9 @@ collections:
     output: true
   contenidos:
     output: true
+  testimonios:
+    permalink: /como/:path
+    output: true
 
 # --- General options --- #
 
@@ -21,7 +24,7 @@ baseurl: ""
 # ej. Si es un proyecto mas en tu usuario de github (pone tu usuario y proyecto)
 # url: "http://ana.github.io/bandapaginapa_202102"
 url: "https://www.podemosaprender.org/bandapaginapa_202102"
-baseurl: "/bandapaginapa_202102"
+#baseurl: "/bandapaginapa_202102"
 
 
 # Name of website
@@ -183,6 +186,12 @@ defaults:
       type: "personas"
     values:
       layout: "persona"
+  -
+    scope:
+      path: ""
+      type: "testimonios"
+    values:
+      layout: "testimonio"
   -
     scope:
       path: ""

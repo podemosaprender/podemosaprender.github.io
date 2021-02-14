@@ -21,27 +21,20 @@
           <h2 class="text-center red mb-5"><b>Miembros de Podemos Aprender dicen:</b></h2>
         <div id="demo" class="carousel slide" data-interval="false" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+{% assign clases = "active" %}
+{% for p in site.testimonios %}
+                <div class="carousel-item {{ clases }}">
                     <div class="carousel-caption">
-                        <p>Podés encontrar muchos sitios que ofrecen conocimiento como caramelos, pero pocos espacios para aprender. ¿Aprender qué? A ser mejor persona y profesional, a trabajar en equipo y a compartir.</p> 
-                        <img src="{{ site.url }}/images/navalos_200x200.png" alt="">
-                        <div class="image-caption">Noelia Avalos</div>
+                       	{{ p.content }} 
+                        <img 
+			src="{{ site.baseurl }}/personas_img{{ p.url | remove_first: "/como"}}.jpg"
+			alt="Foto de {{ p.title }}">
+                        <div class="image-caption">{{ p.title }}</div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="carousel-caption">
-                        <p>Cuando empecé a trabajar por mi cuenta sentí lo desafiante y único que puede ser buscar el camino propio. En PA encontré la compañia, la ayuda y los métodos que me guiaron para mantener el entusiasmo y llegar a dónde quería.</p> 
-                        <img src="{{ site.url }}/images/FerCatz.jpg" alt="">
-                        <div class="image-caption">Fer Catz</div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="carousel-caption">
-                        <p>If Shai Reznik's TDD videos don't convince you to add automated testing your code, I don't know what will.This was the very best explanation of frameworks for brginners that I've ever seen.</p> 
-                        <img src="https://i.imgur.com/jQWThIn.jpg" alt="" class="img-fluid">
-                        <div class="image-caption">Harry Mon</div>
-                    </div>
-                </div>
+{% assign clases = "" %}
+{% endfor %}
+
             </div> <a class="carousel-control-prev" href="#demo" data-slide="prev" aria-label="Volver a un testimonio anterior"> <i class='fas fa-arrow-left'></i> </a> <a class="carousel-control-next" href="#demo" data-slide="next" aria-label="Avanzar a un testimonio siguiente"> <i class='fas fa-arrow-right'></i> </a>
         </div>
     </div>
