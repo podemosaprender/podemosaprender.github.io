@@ -27,6 +27,12 @@ h1 {
   font-family: "Cookie", cursive;
 }
 
+.h2 {
+  font-weigbt: 700;
+  color: #0198b9;
+  font-family: "Noto Sans TC";
+}
+
 .subtitulo {
   font-size: 21px;
   font-weight: 900;
