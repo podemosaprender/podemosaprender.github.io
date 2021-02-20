@@ -6,9 +6,9 @@
           
           <h2 id="quienessomos" class="celeste pb-5"><b>¿Quiénes somos?</b></h2> 
 
-          <p><b>Podemos Aprender (PA)</b> es un grupo de personas que comparten experiencias para facilitar los aprendizajes de todos los integrantes de la "banda". <b>PA</b> es un espacio seguro donde los diálogos e intercambios se basan en el respeto por las ideas, las diferencias y los proyectos que se presentan. En este lugar no se pregunta nada personal.</p>
+          <p><b class="verde">Podemos Aprender (PA)</b> es un grupo de personas que comparten experiencias para facilitar los aprendizajes de todos los integrantes de la "banda". <b class="verde">PA</b> es un espacio seguro donde los diálogos e intercambios se basan en el respeto por las ideas, las diferencias y los proyectos que se presentan. En este lugar no se pregunta nada personal.</p>
           <p>Aquí encontrarás profesionales de todo tipo, maestros de oficios, escritores, artistas, especialistas en marketing, diseñadores, científicos y mentores en potencia. Es un espacio ecléctico, donde la diversidad potencia las ideas y la meta es que todos crezcan laboralmente.</p>
-          <p>Este sitio es una prueba de lo que podemos aprender y podemos hacer reuniendo nuestros conocimientos y consensuando opiniones. Las experiencias no se pueden transmitir, pero los aprendizajes de las mismas se comparten en <b>PA</b> con absoluta libertad.</p>
+          <p>Este sitio es una prueba de lo que podemos aprender y podemos hacer reuniendo nuestros conocimientos y consensuando opiniones. Las experiencias no se pueden transmitir, pero los aprendizajes de las mismas se comparten en <b class="verde">PA</b> con absoluta libertad.</p>
         </div>
         
       </div>
@@ -25,10 +25,13 @@
 {% for p in site.testimonios %}
                 <div class="carousel-item {{ clases }}">
                     <div class="carousel-caption">
+<<<<<<< HEAD
                        	{{ p.content }} 
                         <img 
 			src="{{ site.baseurl }}/personas_img{{ p.url | remove_first: "/como"}}.jpg"
-			alt="Foto de {{ p.title }}">
+			alt="Foto de {{ p.title }}"
+			class="img-fluid"
+			>
                         <div class="image-caption">{{ p.title }}</div>
                     </div>
                 </div>
