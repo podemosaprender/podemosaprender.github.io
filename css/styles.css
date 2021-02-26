@@ -540,7 +540,7 @@ footer {
 }
 
 a {
-  color: #191919;
+  color: #191919 !important;
 }
 
 a:visited,
