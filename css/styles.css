@@ -424,6 +424,7 @@ nav {
 .fa-fw {
     width: 1.28571429em;
     text-align: center;
+    border: 1px solid #191919;
 }
 
 .fa-twitter:before {
@@ -442,19 +443,19 @@ nav {
     box-sizing: border-box;
 }
 
-.btn-twitter {
+.fa.fa-twitter {
     color: #fff;
     background-color: #55acee;
     border-color: rgba(0,0,0,0.2);
 }
 
-.btn-facebook {
+.fa.fa-facebook {
     color: #fff;
     background-color: #3b5998;
     border-color: rgba(0,0,0,0.2);
 }
 
-.btn-linkedin {
+.fa.fa-linkedin {
     color: #fff;
     background-color: #007bb6;
     border-color: rgba(0,0,0,0.2);
