@@ -19,27 +19,27 @@ Jekyll trabaja con lenguaje [MarkDown](https://markdown.es/) y [Liquid](https://
 
 El archivo _config.yml está escrito en YAML. En este archivo definimos la URL principal, el titulo y la descripcion de la web, links del navbar, la estética del sitio, archivos a excluir, y las colecciones entre otras cosas. 
 
-[Mira nuestro archivo _config.yml] (https://github.com/podemosaprender/podemosaprender.github.io/blob/master/_config.yml)
+[Mira nuestro archivo _config.yml](https://github.com/podemosaprender/podemosaprender.github.io/blob/master/_config.yml)
 
 El contenido que deseemos publicar en cada página estará en un archivo MarkDown que a su vez tendrá un encabezado en YAML. Este encabezado, llamado *front-matter* es donde definimos el permalink, el titulo del post, la plantilla html que utilizaremos (layout).
-Cada Atributo del front-matter lo podremos utilizar en el html como {{ page.Atributo }} y de igual manera con {{ content }} el resto del markdown.
+Cada Atributo del front-matter lo podremos utilizar en el html como {{ "{{ page.Atributo" }}}} y de igual manera con {{ "{{content" }}}} el resto del markdown.
 
-<img src="/img/Jekyll1.jpg">
+![La página como la escribimos en Markdown](/img/Jekyll1.jpg){:class="img-responsive"}
 
 En este caso, vemos que en el front-matter no tiene asignado layout entonces automaticamente utilizará el definido en _config.yml como default, que estará en _layout/default.html
 
 La carpeta _layout tendrá los códigos HTML de cada una de las plantillas que tengamos disponibles para los distintos tipos de posteos que tenga nuestra web.
 
-<img src="/img/Jekyll2.jpg">
+![Archivos en la carpeta _layouts](/img/Jekyll2.jpg){:class="img-responsive"}
 
-El codigo de default.html es el siguiente: 
+El código de default.html es el siguiente: 
 
 ‘ ---
 layout: base
 ---
 <div class="intro-header"></div>
 <div role="main" class="container">
-  {{ content }}
+  {{ "{{ content" }}}}
 </div> ‘
 
 Y podremos notar que en el front-matter dice “layout:base”, eso significa que esta plantilla a su vez utiliza otra plantilla que es base.html
