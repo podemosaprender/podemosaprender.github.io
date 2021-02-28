@@ -1,6 +1,7 @@
 ---
 permalink: /con/una-banda
 img: /img/banda.jpg
+tags: [organizar]
 ---
 
 Para aprovechar el _ArmáUnaBanda_. Te cuento como hacer para lograr cosas y crecer.
