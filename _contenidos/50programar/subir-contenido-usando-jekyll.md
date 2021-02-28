@@ -1,5 +1,5 @@
 ---
-title: Subiendo contenido usando Jekyll
+title: Generar sitios usando Jekyll en Gitpages
 permalink: /usando/jekyll
 tags: ["jekyll","tutorial"]
 ---
@@ -34,35 +34,43 @@ La carpeta _layout tendrá los códigos HTML de cada una de las plantillas que t
 
 El código de default.html es el siguiente: 
 
-‘ ---
+~~~
+
+---
 layout: base
 ---
 <div class="intro-header"></div>
 <div role="main" class="container">
   {{ "{{ content" }}}}
-</div> ‘
+</div>
+
+~~~
 
 Y podremos notar que en el front-matter dice “layout:base”, eso significa que esta plantilla a su vez utiliza otra plantilla que es base.html
 
 Lo destacable de todo esto es la versatilidad que nos permite Jekyll, ya sea a la hora de reutilizar fragmentos de código html o definir y utilizar facilmente elementos del front-matter. A continuación, veremos otra forma muy util de reutilizar código html.
 
-En la carpeta _include tendremos pedazos de código html para utilizar en distintas situaciones, por ejemplo footer o header. Y cada vez que queramos que un layout o un markdown incluya este fragmento, lo llamaremos usando {% include header.html %}
+En la carpeta _include tendremos pedazos de código html para utilizar en distintas situaciones, por ejemplo footer o header. Y cada vez que queramos que un layout o un markdown incluya este fragmento, lo llamaremos usando ` {{ "{% include header.html" }}%} `
+
 De esta manera, en vez de copiar y pegar codigo en cada uno de los layouts, tendremos los includes donde modificando ese fragmento se modifica en todos los layouts donde los incluimos.
 
 Por otra parte, las colecciones son una forma de agrupar contenido. En podemos aprender usamos 2 colecciones: contenidos y personas. Para esto es necesario definirlas en _config.yml
 
-‘ collections:
+~~~
+collections:
    personas:
      permalink: /con/:path
      output: true
    contenidos:
      output: true
-‘
+~~~
+
 Y dentro de las carpetas _contenidos y _personas estarán los markdowns con los contenidos que se publicaran en estas secciones. 
 
-Entendiendo esto, veremos cómo publicar este contenido en la web de PodemosAprender. Esto lo haremos igual que cuando subimos nuestro perfil al sitio {/para/participar }.
+Entendiendo esto, veremos cómo publicar este contenido en la web de PodemosAprender. Esto lo haremos igual que cuando subimos nuestro perfil al sitio {/para/participar} .
 
-##Paso a paso para subir contenido:
+## Paso a paso para subir contenido
+
 1. Creamos un fork del [repositorio de la pagina](https://github.com/podemosaprender/podemosaprender.github.io).
 2. Clonamos el repositorio en nuestra computadora.
 3. Creamos el archivo .md definiendo en el front-matter los atributos que creamos necesarios (Puede ser title, permalink, tags, etc.).
