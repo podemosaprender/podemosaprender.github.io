@@ -62,3 +62,10 @@ Y dentro de las carpetas _contenidos y _personas estarán los markdowns con los 
 
 Entendiendo esto, veremos cómo publicar este contenido en la web de PodemosAprender. Esto lo haremos igual que cuando subimos nuestro perfil al sitio {/para/participar }.
 
+##Paso a paso para subir contenido:
+1. Creamos un fork del [repositorio de la pagina](https://github.com/podemosaprender/podemosaprender.github.io).
+2. Clonamos el repositorio en nuestra computadora.
+3. Creamos el archivo .md definiendo en el front-matter los atributos que creamos necesarios (Puede ser title, permalink, tags, etc.).
+4. Subimos los archivos markdown a la carpeta indicada dentro de _contenidos.
+5. Subimos imagenes a img en caso de que haya.
+6. Controlamos que todo haya quedado bien y entonces podremos hacer el pull request.
