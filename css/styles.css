@@ -372,7 +372,7 @@ nav {
 
 /* Iconos redes sociales compartir*/
 
-.fa {
+.faceb {
   padding: 10px;
   font-size: 30px;
   width: 26px;
@@ -381,11 +381,11 @@ nav {
   margin: 5px 2px;
 }
 
-.fa:hover {
+.faceb:hover {
     opacity: 0.9;
 }
 
-.fa-facebook {
+.icon-facebook {
   background: #3B5998;
   color: white;
 }
