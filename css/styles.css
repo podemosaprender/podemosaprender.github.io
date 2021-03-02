@@ -372,104 +372,22 @@ nav {
 
 /* Iconos redes sociales compartir*/
 
-#social-share-section {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    float: right;
-}
-
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.btn-social-icon {
-    position: relative;
-    padding-left: 44px;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    height: 34px;
-    width: 34px;
-    padding: 0;
-}
-
 .fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  padding: 10px;
+  font-size: 30px;
+  width: 26px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
-.fa-fw {
-    width: 1.28571429em;
-    text-align: center;
-    border: 1px solid #191919;
+.fa:hover {
+    opacity: 0.9;
 }
 
-.fa-twitter:before {
-    content: "\f099";
-}
-
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.fa.fa-twitter {
-    color: #fff;
-    background-color: #55acee;
-    border-color: rgba(0,0,0,0.2);
-}
-
-.fa.fa-facebook {
-    color: #fff;
-    background-color: #3b5998;
-    border-color: rgba(0,0,0,0.2);
-}
-
-.fa.fa-linkedin {
-    color: #fff;
-    background-color: #007bb6;
-    border-color: rgba(0,0,0,0.2);
-}
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
 
 
