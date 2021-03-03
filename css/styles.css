@@ -372,23 +372,6 @@ nav {
 
 /* Iconos redes sociales compartir*/
 
-.faceb {
-  padding: 10px;
-  font-size: 30px;
-  width: 26px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.faceb:hover {
-    opacity: 0.9;
-}
-
-.icon-facebook {
-  background: #3B5998;
-  color: white;
-}
 
 
 /*  Footer  */
