@@ -1,3 +1,10 @@
+---
+permalink: /usando/migracion-de-un-dominio-a-otro-proveedor
+tags: [devops, dns, hosting]
+---
+
+** Migrando un dominio de un proveedor a otro **
+
 Es recomendable además de tener el dominio principal, tener por lo menos un dominio secundario. Cuando todo está bien, o es la primera vez, apunto tanto el dominio principal como el secundario y me aseguro que los dos estén andando.
 Al momento de migrar primero hago todo el laburo con el dominio secundario, documentando paso por paso y haciendo todas las pruebas necesarias. Recién una vez que tengo todo funcionando como me gusta, hago los mismos pasos con el principal.
 Las migraciones de dominios tardan un tiempo variable entre unas pocas y unas muchas horas y esos son tiempos que vos no podés asegurar.
