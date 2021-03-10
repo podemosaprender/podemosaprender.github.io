@@ -77,3 +77,8 @@ Entendiendo esto, veremos cómo publicar este contenido en la web de PodemosApre
 4. Subimos los archivos markdown a la carpeta indicada dentro de _contenidos.
 5. Subimos imagenes a img en caso de que haya.
 6. Controlamos que todo haya quedado bien y entonces podremos hacer el pull request.
+
+Acá te explico **en un video.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WkdYluMYGfI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
