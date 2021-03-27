@@ -22,13 +22,14 @@ body {
 }
 
 h1 {
-  font-size: 90px;
-  font-weight: 700;
-  font-family: "Cookie", cursive;
+	font-size: 45px;
+	font-weight: 700;
+	margin-top: 20px;
+	color: #02864d;
 }
 
 .h2 {
-  font-weigbt: 700;
+  font-weight: 700;
   color: #0198b9;
   font-family: "Noto Sans TC";
 }
