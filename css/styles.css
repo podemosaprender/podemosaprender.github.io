@@ -22,9 +22,16 @@ body {
 }
 
 h1 {
-  font-size: 90px;
+	font-size: 45px;
+	font-weight: 700;
+	margin-top: 20px;
+	color: #02864d;
+}
+
+.h2 {
   font-weight: 700;
-  font-family: "Cookie", cursive;
+  color: #0198b9;
+  font-family: "Noto Sans TC";
 }
 
 .h2 {
@@ -547,4 +554,8 @@ a:hover {
 .skip2content-link:hover {
   color: #008579;
   background-color: #ffffff;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: 0 0 0 0.2rem #343a40;
 }
