@@ -1,0 +1,80 @@
+
+body {
+    width: 100%;
+    margin: 0px;
+    background-color: darkgray;
+}
+
+h1 {
+    background-color: cyan;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 40px;
+}
+
+img{
+    width: 100%;
+}
+#buttom{
+    padding: 0;
+    margin-top: 0px;
+}
+#buttom li {
+    display: inline-block;
+}
+
+#buttom li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    background-color: rgb(177, 177, 221);
+    color: rgb(19, 5, 102);
+    background-color: rgb(10, 26, 245);
+    color: white;
+}
+
+#buttom li a:hover {
+    background-color: red;
+    margin-top: -2;
+    padding-bottom: 12px;
+}
+
+.slide {
+    height: auto;
+    background: rgb(128, 128, 128);
+    font-size: 3em;
+    text-align: center;
+    line-height:0em;
+}
+
+.menu {
+    background: rgb(100, 202, 243);
+    padding: 0px;
+    font-size: 0px; 
+    position: fixed;
+    top: 0;
+    
+}
+.tittle{
+    margin: 0;
+}
+
+.texto {
+    margin: 10px;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
